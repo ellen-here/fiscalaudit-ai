@@ -119,7 +119,7 @@ fiscalaudit-ai/
 | 3    | Geração de dados fictícios com Python + Faker | ✅ Concluído     |
 | 4    | Pipeline ETL (CSV → MySQL)                    | ✅ Concluído     |
 | 5    | Regras de auditoria e conciliação             | ✅ Concluído     |
-| 6    | Análise exploratória dos dados                | ⏳ Pendente      |
+| 6    | Análise exploratória dos dados                | ✅ Concluído     |
 | 7    | Machine Learning para detecção de anomalias   | ⏳ Pendente      |
 | 8    | IA Generativa para apoio na análise           | ⏳ Pendente      |
 | 9    | Dashboard com Streamlit                       | ⏳ Pendente      |
