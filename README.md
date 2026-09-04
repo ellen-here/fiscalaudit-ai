@@ -122,7 +122,7 @@ fiscalaudit-ai/
 | 6    | Análise exploratória dos dados                | ✅ Concluído     |
 | 7    | Machine Learning para detecção de anomalias   | ✅ Concluído     |
 | 8    | IA Generativa para apoio na análise           | ✅ Concluído     |
-| 9    | Dashboard com Streamlit                       | ⏳ Pendente      |
+| 9    | Dashboard com Streamlit                       | ✅ Concluído     |
 | 10   | Docker e documentação final                   | ⏳ Pendente      |
 
 ---
