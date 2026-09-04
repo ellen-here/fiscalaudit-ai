@@ -1,0 +1,113 @@
+﻿id_conciliacao,id_conta,id_movimentacao,data_conciliacao,status_conciliacao,diferenca_valor,observacao
+1,392,498,2026-05-27,Conciliado,0.0,Conciliação automática
+2,338,440,2026-04-30,Conciliado,0.0,Conciliação automática
+3,34,16,2026-05-08,Inconsistente,8121.73,Divergência de R$ 8121.73
+4,27,21,2025-12-28,Inconsistente,11531.94,Divergência de R$ 11531.94
+5,149,180,2026-03-03,Conciliado,0.0,Conciliação automática
+6,234,263,2026-03-03,Conciliado,0.0,Conciliação automática
+7,93,127,2026-09-13,Conciliado,0.0,Conciliação automática
+8,163,217,2026-07-12,Conciliado,0.0,Conciliação automática
+9,30,6,2026-07-18,Conciliado,0.0,Conciliação automática
+10,302,398,2026-03-19,Conciliado,0.0,Conciliação automática
+11,130,177,2026-03-16,Conciliado,0.0,Conciliação automática
+12,256,323,2026-10-16,Conciliado,0.0,Conciliação automática
+13,88,120,2026-04-01,Conciliado,0.0,Conciliação automática
+14,330,444,2026-04-19,Conciliado,0.0,Conciliação automática
+15,114,148,2026-09-28,Conciliado,0.0,Conciliação automática
+16,148,176,2026-10-06,Conciliado,0.0,Conciliação automática
+17,245,348,2026-04-19,Conciliado,0.0,Conciliação automática
+18,333,436,2026-05-29,Conciliado,0.0,Conciliação automática
+19,61,68,2026-09-13,Conciliado,0.0,Conciliação automática
+20,250,332,2026-06-26,Conciliado,0.0,Conciliação automática
+21,152,167,2026-09-03,Conciliado,0.0,Conciliação automática
+22,373,453,2026-06-17,Conciliado,0.0,Conciliação automática
+23,280,340,2025-10-01,Inconsistente,22169.61,Divergência de R$ 22169.61
+24,36,47,2026-08-29,Conciliado,0.0,Conciliação automática
+25,107,145,2026-08-24,Conciliado,0.0,Conciliação automática
+26,384,494,2026-03-17,Conciliado,0.0,Conciliação automática
+27,12,50,2026-04-02,Conciliado,0.0,Conciliação automática
+28,370,479,2026-07-27,Conciliado,0.0,Conciliação automática
+29,46,93,2026-04-23,Conciliado,0.0,Conciliação automática
+30,206,265,2026-10-11,Conciliado,0.0,Conciliação automática
+31,347,415,2026-06-11,Conciliado,0.0,Conciliação automática
+32,18,32,2026-04-20,Inconsistente,854.31,Divergência de R$ 854.31
+33,321,431,2026-07-21,Conciliado,0.0,Conciliação automática
+34,167,229,2026-07-22,Conciliado,0.0,Conciliação automática
+35,337,402,2026-06-30,Conciliado,0.0,Conciliação automática
+36,241,337,2026-10-09,Conciliado,0.0,Conciliação automática
+37,145,161,2026-08-13,Conciliado,0.0,Conciliação automática
+38,271,345,2026-05-02,Conciliado,0.0,Conciliação automática
+39,74,54,2026-04-11,Conciliado,0.0,Conciliação automática
+40,209,285,2026-05-31,Conciliado,0.0,Conciliação automática
+41,228,271,2026-10-22,Inconsistente,19827.7,Divergência de R$ 19827.7
+42,162,242,2026-02-17,Inconsistente,2431.53,Divergência de R$ 2431.53
+43,198,248,2025-11-02,Conciliado,0.0,Conciliação automática
+44,151,163,2026-02-15,Conciliado,0.0,Conciliação automática
+45,59,61,2026-04-25,Conciliado,0.0,Conciliação automática
+46,262,304,2026-07-25,Conciliado,0.0,Conciliação automática
+47,335,412,2026-10-25,Conciliado,0.0,Conciliação automática
+48,116,103,2026-08-13,Conciliado,0.0,Conciliação automática
+49,66,97,2026-09-03,Conciliado,0.0,Conciliação automática
+50,24,46,2026-10-30,Conciliado,0.0,Conciliação automática
+51,84,141,2026-04-04,Conciliado,0.0,Conciliação automática
+52,219,256,2026-10-13,Conciliado,0.0,Conciliação automática
+53,261,325,2026-07-12,Conciliado,0.0,Conciliação automática
+54,208,276,2026-04-04,Conciliado,0.0,Conciliação automática
+55,260,310,2026-03-11,Conciliado,0.0,Conciliação automática
+56,50,82,2026-04-02,Conciliado,0.0,Conciliação automática
+57,78,75,2026-09-01,Conciliado,0.0,Conciliação automática
+58,323,418,2026-06-27,Conciliado,0.0,Conciliação automática
+59,325,416,2026-03-10,Conciliado,0.0,Conciliação automática
+60,387,474,2026-10-07,Conciliado,0.0,Conciliação automática
+61,181,234,2025-12-15,Conciliado,0.0,Conciliação automática
+62,192,237,2026-05-17,Conciliado,0.0,Conciliação automática
+63,4,48,2026-09-10,Conciliado,0.0,Conciliação automática
+64,378,489,2026-01-06,Conciliado,0.0,Conciliação automática
+65,98,132,2026-03-31,Conciliado,0.0,Conciliação automática
+66,200,244,2026-07-28,Conciliado,0.0,Conciliação automática
+67,173,235,2026-11-02,Conciliado,0.0,Conciliação automática
+68,397,475,2026-08-13,Conciliado,0.0,Conciliação automática
+69,76,91,2026-06-16,Conciliado,0.0,Conciliação automática
+70,235,254,2026-06-16,Inconsistente,9267.77,Divergência de R$ 9267.77
+71,42,89,2026-02-13,Conciliado,0.0,Conciliação automática
+72,244,343,2026-07-21,Conciliado,0.0,Conciliação automática
+73,264,346,2026-08-08,Inconsistente,3527.2,Divergência de R$ 3527.2
+74,251,333,2026-02-03,Conciliado,0.0,Conciliação automática
+75,22,29,2025-09-30,Conciliado,0.0,Conciliação automática
+76,242,341,2026-04-16,Conciliado,0.0,Conciliação automática
+77,310,397,2026-06-12,Conciliado,0.0,Conciliação automática
+78,13,26,2026-08-30,Conciliado,0.0,Conciliação automática
+79,53,86,2025-10-19,Conciliado,0.0,Conciliação automática
+80,247,321,2026-08-20,Conciliado,0.0,Conciliação automática
+81,9,34,2025-12-24,Conciliado,0.0,Conciliação automática
+82,68,70,2026-04-14,Conciliado,0.0,Conciliação automática
+83,286,359,2026-07-24,Conciliado,0.0,Conciliação automática
+84,314,366,2026-09-24,Conciliado,0.0,Conciliação automática
+85,255,301,2026-02-10,Conciliado,0.0,Conciliação automática
+86,273,322,2026-04-16,Conciliado,0.0,Conciliação automática
+87,19,13,2026-02-11,Conciliado,0.0,Conciliação automática
+88,257,313,2025-09-28,Conciliado,0.0,Conciliação automática
+89,281,369,2026-05-07,Conciliado,0.0,Conciliação automática
+90,279,319,2026-05-27,Conciliado,0.0,Conciliação automática
+91,1,12,2026-06-19,Inconsistente,3868.14,Divergência de R$ 3868.14
+92,362,466,2026-08-05,Conciliado,0.0,Conciliação automática
+93,294,355,2026-11-02,Conciliado,0.0,Conciliação automática
+94,155,160,2026-08-16,Conciliado,0.0,Conciliação automática
+95,223,291,2026-08-13,Inconsistente,1205.66,Divergência de R$ 1205.66
+96,144,195,2025-10-30,Inconsistente,19969.87,Divergência de R$ 19969.87
+97,91,130,2026-07-20,Conciliado,0.0,Conciliação automática
+98,243,302,2026-08-25,Conciliado,0.0,Conciliação automática
+99,57,53,2026-06-14,Conciliado,0.0,Conciliação automática
+100,80,87,2026-05-14,Conciliado,0.0,Conciliação automática
+101,297,367,2026-02-14,Inconsistente,24568.84,Divergência de R$ 24568.84
+102,300,388,2026-08-13,Conciliado,0.0,Conciliação automática
+103,49,79,2026-07-29,Conciliado,0.0,Conciliação automática
+104,43,90,2025-11-20,Conciliado,0.0,Conciliação automática
+105,290,390,2026-02-28,Conciliado,0.0,Conciliação automática
+106,172,216,2026-10-10,Conciliado,0.0,Conciliação automática
+107,169,246,2026-06-30,Conciliado,0.0,Conciliação automática
+108,180,223,2026-09-03,Conciliado,0.0,Conciliação automática
+109,79,85,2026-06-28,Inconsistente,31673.54,Divergência de R$ 31673.54
+110,248,317,2026-03-26,Conciliado,0.0,Conciliação automática
+111,182,203,2026-09-30,Conciliado,0.0,Conciliação automática
+112,164,214,2026-10-18,Conciliado,0.0,Conciliação automática

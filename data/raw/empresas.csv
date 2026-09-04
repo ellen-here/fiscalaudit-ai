@@ -1,0 +1,11 @@
+﻿id_empresa,razao_social,cnpj,ramo_atividade,regime_tributario,criado_em
+1,Marques,76.925.651/0001-97,Tecnologia,Lucro Real,2025-07-17 07:05:58.721222
+2,Sampaio da Costa - EI,65.171.780/0001-52,Saúde,Simples Nacional,2024-06-10 14:50:33.950735
+3,Aparecida,48.619.416/0001-95,Educação,Lucro Real,2024-04-24 06:53:46.719933
+4,Santos,61.813.402/0001-80,Indústria,Lucro Presumido,2025-07-03 02:36:03.320639
+5,Gomes,63.780.488/0001-96,Indústria,Lucro Real,2025-08-26 21:10:53.435808
+6,Monteiro Andrade S.A.,61.661.953/0001-10,Alimentação,Lucro Real,2024-09-05 18:42:32.439765
+7,Brito,36.540.904/0001-84,Saúde,MEI,2025-06-04 10:40:03.695546
+8,Brito,66.552.791/0001-37,Construção,Lucro Presumido,2024-09-23 01:30:13.190598
+9,Albuquerque,94.186.390/0001-75,Saúde,Simples Nacional,2025-02-13 14:19:12.282953
+10,Rezende,40.788.417/0001-38,Tecnologia,Lucro Presumido,2025-08-13 09:35:54.961923

@@ -1,0 +1,501 @@
+﻿id_movimentacao,id_empresa,data_movimentacao,tipo_operacao,categoria,descricao_movimentacao,valor_movimentacao,conciliada
+1,1,2025-10-01,Entrada,Receita de Venda,Excepturi possimus officiis sequi sequi.,12619.71,0
+2,1,2026-07-14,Saída,Salário,Veritatis occaecati suscipit laborum molestiae nulla.,13716.94,0
+3,1,2025-11-28,Entrada,Aporte de Capital,Voluptatum quia inventore atque odio.,24971.67,0
+4,1,2026-07-19,Entrada,Recebimento de Cliente,Cumque error adipisci eveniet animi facere.,32974.87,0
+5,1,2026-02-08,Entrada,Receita de Venda,Minus natus recusandae cumque aspernatur.,39031.81,0
+6,1,2026-07-18,Entrada,Recebimento de Cliente,Placeat libero nesciunt doloremque odit itaque pariatur tempore.,40303.44,1
+7,1,2026-02-20,Saída,Pagamento de Fornecedor,Perspiciatis culpa ipsam exercitationem nesciunt.,16766.43,0
+8,1,2026-04-25,Entrada,Aporte de Capital,Porro itaque error voluptatum sequi autem.,7100.29,0
+9,1,2026-01-21,Saída,Manutenção,Nemo voluptatibus eos voluptate omnis earum.,28506.18,0
+10,1,2026-03-29,Saída,Marketing,Tenetur quia rerum.,24934.02,0
+11,1,2026-07-30,Saída,Aluguel,Non explicabo odio numquam perspiciatis.,22335.3,0
+12,1,2026-05-25,Saída,Despesas Administrativas,Occaecati temporibus officia est.,7849.83,1
+13,1,2026-02-11,Entrada,Empréstimo,Facilis consectetur tenetur eveniet impedit dicta ratione soluta.,38407.78,1
+14,1,2026-01-15,Saída,Impostos,Totam rerum ducimus repudiandae laboriosam rem quia.,8310.46,0
+15,1,2026-01-05,Entrada,Empréstimo,Iusto asperiores quidem dolorem.,12107.43,0
+16,1,2026-05-08,Saída,Manutenção,Voluptas rem facilis ratione accusamus modi.,26801.5,1
+17,1,2026-02-16,Entrada,Recebimento de Cliente,Nesciunt reprehenderit velit autem doloremque.,7966.12,0
+18,1,2025-09-13,Saída,Aluguel,Eveniet nostrum officia odio iure praesentium officiis.,21221.93,0
+19,1,2025-10-16,Entrada,Aporte de Capital,Veniam esse laudantium.,20676.17,0
+20,1,2025-10-09,Saída,Marketing,Consequatur iste perferendis quia veniam in quia.,1961.74,0
+21,1,2025-10-30,Saída,Marketing,Omnis rerum nulla vel eius porro.,27154.67,1
+22,1,2025-11-22,Entrada,Recebimento de Serviços,Veritatis sequi aut placeat molestias voluptate.,19328.86,0
+23,1,2026-01-12,Entrada,Empréstimo,Eius voluptas veniam repudiandae at distinctio.,15281.33,0
+24,1,2026-04-25,Saída,Marketing,Amet ex voluptates.,16192.79,0
+25,1,2026-06-18,Entrada,Aporte de Capital,Architecto quisquam dignissimos dolor sit.,11361.37,0
+26,1,2026-01-01,Saída,Despesas Administrativas,Ratione nisi eius voluptates.,967.84,1
+27,1,2026-08-30,Saída,Marketing,Dolorum cupiditate optio ad accusamus ratione dolores.,21753.02,0
+28,1,2025-12-31,Saída,Aluguel,Eaque consectetur in beatae.,29423.59,0
+29,1,2025-09-27,Entrada,Aporte de Capital,Quod maiores autem magnam veniam aliquam quos.,29798.69,1
+30,1,2026-07-17,Entrada,Receita de Venda,Error officia adipisci voluptatum sed incidunt autem.,32316.11,0
+31,1,2026-05-22,Entrada,Aporte de Capital,Asperiores aspernatur non aperiam eius odio.,9495.59,0
+32,1,2026-03-23,Saída,Marketing,Fugit nisi eos magni inventore recusandae.,9887.84,1
+33,1,2025-10-15,Saída,Manutenção,Quam dolor iste dolorem excepturi iste impedit.,10191.27,0
+34,1,2025-10-08,Saída,Combustível,Est ducimus veritatis porro labore at.,22585.09,1
+35,1,2025-10-05,Saída,Combustível,Atque qui repellat nam nesciunt natus.,25063.84,0
+36,1,2026-01-02,Saída,Pagamento de Fornecedor,Illum sit velit in.,22495.83,0
+37,1,2026-08-04,Entrada,Empréstimo,Voluptas nobis expedita.,11599.0,0
+38,1,2026-04-02,Entrada,Receita de Venda,Culpa laboriosam sed expedita nam.,37834.54,0
+39,1,2025-10-15,Entrada,Recebimento de Cliente,Nemo rem sapiente voluptate repellendus.,42041.83,0
+40,1,2026-04-15,Entrada,Recebimento de Cliente,Ad ut repudiandae eaque debitis praesentium est.,6747.94,0
+41,1,2026-01-06,Entrada,Recebimento de Serviços,Delectus corporis omnis.,47413.97,0
+42,1,2025-09-29,Saída,Combustível,At minus fugiat.,23030.25,0
+43,1,2026-02-16,Entrada,Recebimento de Serviços,Fuga quam quod necessitatibus.,30558.75,0
+44,1,2025-10-05,Entrada,Recebimento de Cliente,Culpa quidem amet.,48253.68,0
+45,1,2025-10-03,Entrada,Recebimento de Serviços,Optio laborum ipsam earum quidem beatae.,1771.08,0
+46,1,2026-02-07,Saída,Marketing,Perspiciatis nihil minima est dolore.,11959.97,1
+47,1,2026-08-29,Entrada,Receita de Venda,Ab error distinctio consequatur.,29808.84,1
+48,1,2025-12-06,Entrada,Receita de Venda,Blanditiis libero inventore consectetur minus dolorem.,35011.05,1
+49,1,2026-03-26,Saída,Salário,Asperiores similique aliquam accusantium ullam similique.,23907.19,0
+50,1,2026-04-02,Entrada,Empréstimo,Illo odit enim illo vitae cupiditate veniam.,26870.89,1
+51,2,2026-02-18,Saída,Salário,At sapiente doloribus nihil minima id.,15228.23,0
+52,2,2025-12-26,Saída,Pagamento de Fornecedor,Dolore quod asperiores odio minus deserunt.,25502.31,0
+53,2,2026-06-14,Saída,Salário,Quas reprehenderit repellendus dolores corporis deserunt.,13062.35,1
+54,2,2026-04-11,Saída,Despesas Administrativas,Debitis quo laudantium quidem.,21248.53,1
+55,2,2026-06-08,Saída,Aluguel,Perspiciatis sunt officia voluptates eum voluptas et.,22040.48,0
+56,2,2026-02-11,Saída,Despesas Administrativas,Ipsam esse earum animi magni est iste.,13999.73,0
+57,2,2025-09-24,Saída,Manutenção,Asperiores sint sequi nostrum magni.,25566.22,0
+58,2,2026-02-19,Entrada,Empréstimo,Veritatis qui aliquam tenetur nemo deleniti non.,44140.74,0
+59,2,2026-03-05,Entrada,Aporte de Capital,Ipsum repellat saepe voluptatem.,28707.56,0
+60,2,2025-10-04,Saída,Manutenção,Aliquam provident voluptatibus minima.,958.13,0
+61,2,2026-04-14,Saída,Aluguel,Fuga eligendi illum excepturi nisi ratione.,14677.74,1
+62,2,2026-04-28,Saída,Combustível,Ex nam harum dolorum.,10276.13,0
+63,2,2026-07-11,Saída,Pagamento de Fornecedor,Sit ex nesciunt consequuntur expedita voluptas praesentium hic.,15547.15,0
+64,2,2026-04-09,Entrada,Receita de Venda,Est fugiat recusandae repellat.,12447.12,0
+65,2,2026-05-06,Saída,Despesas Administrativas,Atque perferendis magni accusantium est veritatis exercitationem.,16699.77,0
+66,2,2026-06-10,Entrada,Aporte de Capital,Dolorem consequuntur aspernatur sapiente aut.,32472.19,0
+67,2,2026-06-12,Saída,Despesas Administrativas,Alias excepturi quisquam consectetur fugiat cum rerum.,23808.69,0
+68,2,2026-06-12,Entrada,Empréstimo,Quam aliquam facilis quaerat.,11469.02,1
+69,2,2026-08-23,Entrada,Empréstimo,Eligendi quibusdam ipsum modi est repellat iusto rerum.,33366.02,0
+70,2,2026-01-16,Saída,Despesas Administrativas,Voluptates iure eligendi fugit minima vitae repellendus.,16648.84,1
+71,2,2026-06-23,Saída,Marketing,Sit amet laboriosam fuga.,29899.28,0
+72,2,2026-08-11,Saída,Manutenção,Sed eligendi quis earum temporibus corporis ipsa.,21115.36,0
+73,2,2026-08-15,Saída,Combustível,Repellendus suscipit ut impedit id.,7616.97,0
+74,2,2026-01-18,Entrada,Recebimento de Cliente,Voluptatum fugiat adipisci ut saepe officiis.,16119.62,0
+75,2,2026-06-19,Entrada,Recebimento de Cliente,Alias totam iusto rerum.,11211.04,1
+76,2,2026-06-07,Saída,Combustível,Ipsum a aspernatur ducimus rerum molestias quas.,21765.09,0
+77,2,2026-03-15,Saída,Salário,Quod dolores commodi dolores.,24995.59,0
+78,2,2026-04-25,Saída,Impostos,Itaque beatae temporibus nisi accusamus maiores doloribus corporis.,10890.34,0
+79,2,2026-02-07,Saída,Pagamento de Fornecedor,Explicabo necessitatibus deleniti pariatur minima facere veritatis molestias.,21269.75,1
+80,2,2026-06-18,Entrada,Empréstimo,Mollitia hic iusto odio voluptatem ducimus accusamus.,2753.03,0
+81,2,2026-06-18,Entrada,Recebimento de Serviços,Dolores omnis aut neque quidem consequatur.,14960.76,0
+82,2,2026-01-10,Entrada,Aporte de Capital,Repellendus cupiditate quod iure possimus occaecati.,5578.09,1
+83,2,2026-06-27,Entrada,Recebimento de Serviços,Quaerat velit alias dicta.,14574.8,0
+84,2,2026-06-19,Saída,Despesas Administrativas,Et est id.,10287.11,0
+85,2,2026-06-28,Entrada,Empréstimo,Ducimus quidem deleniti explicabo quos sint ex.,47082.65,1
+86,2,2025-10-19,Saída,Salário,Ipsa id ipsam vero excepturi deleniti.,24681.26,1
+87,2,2026-05-14,Saída,Despesas Administrativas,Unde maxime reiciendis quas aspernatur nobis.,2315.06,1
+88,2,2026-07-01,Entrada,Recebimento de Cliente,Eos aut eveniet eos ipsum quaerat cumque.,7885.28,0
+89,2,2026-02-13,Saída,Salário,Aliquam sit explicabo voluptatum earum voluptatem veniam.,29818.15,1
+90,2,2025-10-01,Entrada,Recebimento de Serviços,Facilis reiciendis perspiciatis veritatis consequuntur non.,38339.95,1
+91,2,2026-06-16,Entrada,Recebimento de Serviços,Commodi doloremque officia.,19328.71,1
+92,2,2026-01-14,Saída,Combustível,Adipisci corrupti ipsum fuga ipsam asperiores consequuntur.,25818.98,0
+93,2,2026-01-15,Saída,Combustível,Officiis dolorum beatae quasi libero harum.,17102.02,1
+94,2,2026-03-28,Entrada,Recebimento de Serviços,Quod provident dolor nostrum possimus.,48025.38,0
+95,2,2026-09-03,Entrada,Recebimento de Cliente,Commodi sequi iste tempore ipsum.,31462.99,0
+96,2,2025-10-06,Saída,Salário,Pariatur quae mollitia enim error culpa.,4796.01,0
+97,2,2026-05-20,Entrada,Recebimento de Serviços,Recusandae magni commodi dicta.,4215.71,1
+98,2,2025-10-24,Entrada,Aporte de Capital,Ad mollitia fuga rem mollitia nostrum assumenda.,22799.93,0
+99,2,2025-12-25,Saída,Combustível,Minima quisquam reprehenderit asperiores voluptas odit ipsum.,1075.93,0
+100,2,2026-05-10,Saída,Combustível,Consectetur repudiandae mollitia nesciunt quisquam consectetur.,21119.33,0
+101,3,2026-03-06,Saída,Salário,Rerum maxime esse cum.,20652.81,0
+102,3,2026-08-11,Saída,Impostos,Exercitationem velit tempora sapiente dolorum.,12811.66,0
+103,3,2026-04-23,Entrada,Recebimento de Cliente,Earum numquam nostrum atque odit nihil neque.,45466.37,1
+104,3,2025-11-05,Entrada,Receita de Venda,Quam non sapiente natus repudiandae adipisci aliquid odit.,3452.08,0
+105,3,2026-04-02,Saída,Combustível,Quisquam impedit odit libero occaecati.,13230.69,0
+106,3,2025-12-18,Saída,Combustível,Laboriosam rem placeat error asperiores.,21022.04,0
+107,3,2025-09-25,Saída,Despesas Administrativas,Impedit iure excepturi corporis similique eum.,13188.99,0
+108,3,2026-08-30,Entrada,Aporte de Capital,Voluptate consectetur fuga natus eum iure.,36859.43,0
+109,3,2025-12-10,Saída,Pagamento de Fornecedor,Consequuntur amet veniam sint in.,2830.67,0
+110,3,2026-08-21,Entrada,Empréstimo,Repellendus ut quam deleniti.,29024.23,0
+111,3,2025-11-01,Entrada,Aporte de Capital,Iure soluta libero at hic itaque dolores.,26188.71,0
+112,3,2026-04-04,Saída,Combustível,Amet libero sunt.,5526.53,0
+113,3,2026-04-30,Saída,Despesas Administrativas,Enim ab autem consequatur eaque facilis illo.,29074.75,0
+114,3,2025-09-20,Saída,Manutenção,Necessitatibus deserunt mollitia.,12309.61,0
+115,3,2025-09-30,Saída,Salário,Ipsum mollitia repudiandae numquam nostrum consectetur atque.,25746.22,0
+116,3,2026-01-18,Saída,Marketing,Nam facilis corporis nobis illo aliquam.,20840.84,0
+117,3,2025-09-18,Saída,Marketing,Rem maxime corrupti tempora consequuntur ut.,24425.62,0
+118,3,2025-12-29,Entrada,Aporte de Capital,Voluptatibus qui error excepturi repudiandae minus.,4858.96,0
+119,3,2026-05-20,Saída,Manutenção,Labore accusantium ex autem impedit.,3566.06,0
+120,3,2025-12-25,Saída,Pagamento de Fornecedor,Ad labore voluptas quos quod neque quam nesciunt.,19764.05,1
+121,3,2025-11-05,Saída,Marketing,Quam quo fugit reprehenderit doloribus nemo praesentium deleniti.,1720.7,0
+122,3,2026-02-11,Saída,Despesas Administrativas,Corrupti porro illum quod ullam sit.,18799.72,0
+123,3,2026-05-30,Entrada,Recebimento de Cliente,Provident maxime natus voluptatum.,13719.28,0
+124,3,2026-02-25,Entrada,Empréstimo,Et cupiditate totam exercitationem explicabo quo.,22186.75,0
+125,3,2026-05-25,Saída,Salário,Nostrum deleniti doloribus nam dolore.,963.2,0
+126,3,2026-08-25,Entrada,Recebimento de Cliente,Quo provident porro laborum laboriosam.,15882.13,0
+127,3,2026-03-27,Entrada,Recebimento de Serviços,Enim nemo molestiae tempore hic.,20695.54,1
+128,3,2026-01-07,Entrada,Receita de Venda,Enim enim quae expedita.,23341.67,0
+129,3,2026-02-12,Entrada,Recebimento de Cliente,Quibusdam distinctio repudiandae earum natus.,25169.59,0
+130,3,2025-12-12,Saída,Combustível,Nulla nesciunt doloribus pariatur.,12523.16,1
+131,3,2026-03-16,Saída,Despesas Administrativas,Amet impedit quaerat aut quo.,7387.55,0
+132,3,2025-09-05,Entrada,Aporte de Capital,Voluptate culpa officiis sunt labore officiis quidem.,9935.21,1
+133,3,2025-12-17,Entrada,Receita de Venda,Officia tenetur at nemo modi.,14174.25,0
+134,3,2026-05-25,Saída,Manutenção,Totam cupiditate sunt.,28034.03,0
+135,3,2025-11-07,Saída,Pagamento de Fornecedor,Voluptatum id libero.,8556.89,0
+136,3,2026-08-11,Saída,Despesas Administrativas,Soluta ab necessitatibus autem voluptatem.,25971.29,0
+137,3,2025-12-16,Saída,Despesas Administrativas,Minima suscipit consequatur magnam earum repellat ex.,10419.21,0
+138,3,2026-05-28,Saída,Despesas Administrativas,Quaerat accusamus excepturi eos perferendis.,27992.28,0
+139,3,2025-11-13,Entrada,Recebimento de Cliente,Sequi tempore repudiandae maiores assumenda pariatur delectus consequuntur.,28803.98,0
+140,3,2025-12-31,Entrada,Aporte de Capital,Ab fugit ipsum eaque eveniet.,2660.54,0
+141,3,2026-04-04,Saída,Marketing,Accusamus officiis possimus aperiam blanditiis esse illo.,11643.75,1
+142,3,2026-03-06,Entrada,Aporte de Capital,Porro odit velit facilis dolore.,48258.81,0
+143,3,2026-08-19,Entrada,Recebimento de Serviços,Corrupti quibusdam non impedit molestias iusto modi.,48285.0,0
+144,3,2026-05-04,Saída,Salário,Quis perspiciatis nisi ratione minima.,26238.29,0
+145,3,2026-03-15,Saída,Salário,Aspernatur natus aperiam molestias magnam nemo.,15825.94,1
+146,3,2025-10-28,Saída,Pagamento de Fornecedor,Sequi ipsam perspiciatis quaerat laborum tempore.,21701.07,0
+147,3,2026-02-13,Saída,Aluguel,Iste maiores itaque animi.,2337.36,0
+148,3,2026-02-19,Saída,Manutenção,Quam id repellendus quia neque.,18735.46,1
+149,3,2025-09-20,Saída,Salário,Praesentium molestiae animi tempora voluptates iusto.,25567.78,0
+150,3,2025-12-17,Saída,Manutenção,Quisquam quisquam voluptatem officia.,18841.3,0
+151,4,2026-02-04,Saída,Pagamento de Fornecedor,Ipsum totam fugiat aspernatur vitae soluta.,18562.04,0
+152,4,2025-10-22,Entrada,Empréstimo,Blanditiis voluptatibus hic consectetur voluptatem rerum.,49872.58,0
+153,4,2026-06-07,Entrada,Aporte de Capital,Iure quaerat incidunt fugit dolorem.,48927.72,0
+154,4,2026-02-19,Entrada,Aporte de Capital,Eius vel quam beatae.,8735.06,0
+155,4,2026-06-26,Saída,Pagamento de Fornecedor,Nostrum vel suscipit dolores architecto nisi.,1475.13,0
+156,4,2026-02-13,Entrada,Empréstimo,Doloribus aliquid ipsa.,18243.94,0
+157,4,2026-03-20,Saída,Aluguel,Consequuntur voluptatibus doloremque totam.,7401.5,0
+158,4,2026-04-02,Saída,Aluguel,Nisi perferendis eum error corporis optio dolore.,5182.51,0
+159,4,2025-12-22,Entrada,Recebimento de Serviços,Nam nihil quasi cupiditate.,43606.56,0
+160,4,2026-05-09,Entrada,Aporte de Capital,Libero voluptas velit perferendis ratione eum impedit.,45685.04,1
+161,4,2025-10-28,Entrada,Recebimento de Cliente,Delectus modi dolores dolorem similique corporis.,23326.92,1
+162,4,2026-02-20,Saída,Despesas Administrativas,Natus voluptas nam consequatur.,7734.27,0
+163,4,2025-12-01,Entrada,Aporte de Capital,Ex aspernatur ipsum fuga modi.,45109.87,1
+164,4,2026-07-03,Entrada,Receita de Venda,Eaque perferendis nobis.,22365.62,0
+165,4,2026-07-19,Saída,Combustível,Rem nesciunt perferendis dolor distinctio.,19204.27,0
+166,4,2026-08-01,Saída,Combustível,Vero accusamus vel vitae blanditiis.,13759.39,0
+167,4,2026-09-03,Saída,Impostos,Totam possimus provident id dolores eum eligendi.,29981.27,1
+168,4,2026-02-21,Saída,Salário,Est facere sunt iure rem quam.,7192.45,0
+169,4,2026-06-08,Saída,Combustível,Totam fuga impedit natus dolore corporis.,29781.49,0
+170,4,2025-12-08,Saída,Pagamento de Fornecedor,Neque impedit corrupti ex fugit rerum libero omnis.,29340.54,0
+171,4,2026-05-11,Saída,Combustível,Quis laborum quam qui itaque.,342.13,0
+172,4,2026-05-29,Entrada,Recebimento de Serviços,Cumque quam laborum totam molestiae odit.,37386.02,0
+173,4,2025-09-25,Saída,Impostos,Saepe asperiores repellendus.,18251.24,0
+174,4,2025-09-21,Saída,Impostos,Impedit sapiente doloremque.,19134.87,0
+175,4,2026-05-20,Saída,Aluguel,Dolor iste aperiam.,18884.62,0
+176,4,2026-04-24,Entrada,Empréstimo,Totam omnis accusamus minus illum accusantium quam modi.,39536.22,1
+177,4,2025-12-17,Entrada,Recebimento de Serviços,Repellat perferendis rem tenetur autem atque corrupti.,18560.63,1
+178,4,2025-11-13,Entrada,Receita de Venda,Dolorum explicabo recusandae aspernatur vero itaque doloribus.,45526.58,0
+179,4,2026-05-16,Saída,Marketing,Placeat sed officiis similique quis.,5351.64,0
+180,4,2025-10-08,Entrada,Recebimento de Serviços,Fugiat labore odio praesentium assumenda sapiente.,43884.8,1
+181,4,2026-04-27,Saída,Combustível,Natus similique atque minus aliquam distinctio.,24931.13,0
+182,4,2026-07-17,Saída,Despesas Administrativas,Labore aliquid asperiores unde tempore natus adipisci.,29024.78,0
+183,4,2026-08-08,Saída,Manutenção,Accusamus dignissimos corporis reprehenderit reprehenderit ut.,24146.55,0
+184,4,2025-12-22,Saída,Salário,Dolores rerum harum tempore ex quidem consequuntur.,4308.63,0
+185,4,2026-08-30,Entrada,Aporte de Capital,Magnam voluptate amet ipsa.,48379.85,0
+186,4,2026-07-07,Saída,Salário,Non nostrum nisi voluptas eveniet odio.,23741.39,0
+187,4,2026-06-16,Entrada,Empréstimo,Laudantium explicabo velit inventore perspiciatis optio assumenda.,27060.33,0
+188,4,2026-04-17,Saída,Manutenção,Quae aspernatur culpa quae odio.,20217.57,0
+189,4,2026-05-31,Saída,Marketing,Facere at velit ipsam quis aut.,24690.28,0
+190,4,2025-10-05,Saída,Salário,Ipsum mollitia illum ad explicabo at.,20277.61,0
+191,4,2026-04-10,Saída,Pagamento de Fornecedor,Sint accusamus impedit quod quam nam.,18624.45,0
+192,4,2026-09-01,Saída,Impostos,Nemo cumque fugit consequuntur error.,19464.81,0
+193,4,2026-03-02,Saída,Combustível,Cumque eius error quos.,19512.26,0
+194,4,2026-01-13,Entrada,Recebimento de Cliente,Quam libero nulla itaque consequatur.,2744.67,0
+195,4,2025-09-06,Entrada,Empréstimo,Ex nulla rem eveniet ex repellendus.,49798.41,1
+196,4,2026-07-14,Entrada,Receita de Venda,Consequatur eum veniam dicta et vitae voluptas eos.,12122.6,0
+197,4,2026-05-15,Entrada,Aporte de Capital,Voluptas quos eveniet eligendi ratione facilis ut.,22955.37,0
+198,4,2025-11-15,Saída,Aluguel,Debitis quisquam ad quas velit distinctio reiciendis.,26573.87,0
+199,4,2026-07-04,Entrada,Aporte de Capital,Reprehenderit recusandae illum libero.,30974.78,0
+200,4,2026-04-23,Saída,Pagamento de Fornecedor,Dolorum culpa incidunt fugiat ipsum.,20739.39,0
+201,5,2026-04-10,Entrada,Aporte de Capital,Id magni ullam porro molestiae ratione facere tempora.,22512.45,0
+202,5,2026-03-18,Entrada,Empréstimo,Autem dolorum optio cumque.,5418.05,0
+203,5,2026-04-15,Saída,Manutenção,Voluptates perspiciatis id quibusdam vitae inventore ab.,1910.45,1
+204,5,2025-12-07,Saída,Impostos,Quia nam porro dolore fugiat iure perspiciatis.,29049.39,0
+205,5,2026-05-14,Saída,Salário,Exercitationem ad autem impedit.,19916.79,0
+206,5,2026-08-21,Entrada,Receita de Venda,Rerum quas expedita exercitationem.,39446.33,0
+207,5,2026-06-17,Entrada,Recebimento de Cliente,Laboriosam labore ipsa possimus eum error repellat.,39455.42,0
+208,5,2025-10-16,Entrada,Receita de Venda,Officia perspiciatis cum voluptates doloribus cupiditate.,41575.98,0
+209,5,2025-11-01,Entrada,Recebimento de Serviços,Incidunt iure reiciendis occaecati delectus omnis hic.,11189.59,0
+210,5,2026-05-31,Entrada,Empréstimo,Ipsum inventore a dolor eius.,38831.24,0
+211,5,2026-05-18,Entrada,Empréstimo,Neque reiciendis modi facilis.,42991.1,0
+212,5,2025-11-14,Entrada,Recebimento de Cliente,Ea similique minus odit.,27240.67,0
+213,5,2026-04-09,Entrada,Receita de Venda,Hic beatae explicabo itaque cupiditate perferendis reiciendis ullam.,33222.35,0
+214,5,2026-04-07,Entrada,Recebimento de Cliente,Est dolores blanditiis fuga.,1235.59,1
+215,5,2025-10-25,Entrada,Recebimento de Serviços,In consequuntur fugit delectus odio possimus.,16526.69,0
+216,5,2026-04-27,Entrada,Empréstimo,Mollitia laudantium consequuntur et.,3093.75,1
+217,5,2026-02-15,Saída,Salário,Sint veritatis laborum.,22395.39,1
+218,5,2025-11-14,Saída,Despesas Administrativas,Vitae magnam libero placeat impedit saepe.,23362.71,0
+219,5,2026-03-01,Entrada,Aporte de Capital,Natus recusandae dolore adipisci.,25440.02,0
+220,5,2025-11-25,Entrada,Recebimento de Serviços,Cumque itaque quia quisquam mollitia.,15430.7,0
+221,5,2025-10-15,Entrada,Receita de Venda,Eaque molestiae voluptatibus molestiae.,49930.04,0
+222,5,2026-06-07,Saída,Marketing,Molestias voluptatibus aut rerum quibusdam error.,20614.32,0
+223,5,2026-09-03,Saída,Despesas Administrativas,Ea similique assumenda sint blanditiis repellat distinctio.,2297.37,1
+224,5,2026-05-31,Entrada,Empréstimo,Similique nostrum incidunt nulla quos repellendus.,30610.72,0
+225,5,2026-06-24,Entrada,Recebimento de Cliente,Expedita eligendi molestiae eum provident enim eaque.,14113.29,0
+226,5,2026-07-14,Saída,Marketing,Consequatur quibusdam illum animi.,29839.37,0
+227,5,2025-12-14,Saída,Despesas Administrativas,Praesentium consequatur corporis eum.,15215.98,0
+228,5,2025-12-03,Saída,Salário,Laudantium neque eaque impedit iste odio.,23813.57,0
+229,5,2026-07-22,Entrada,Recebimento de Serviços,Illo quibusdam possimus soluta.,36181.58,1
+230,5,2026-02-16,Entrada,Aporte de Capital,Eveniet a quo quasi quasi itaque optio.,22851.97,0
+231,5,2026-01-12,Entrada,Aporte de Capital,Recusandae id voluptas repudiandae.,17277.12,0
+232,5,2026-03-03,Saída,Marketing,Repudiandae excepturi neque necessitatibus laborum exercitationem.,12538.09,0
+233,5,2026-05-11,Entrada,Empréstimo,Aliquid numquam saepe.,21624.82,0
+234,5,2025-09-09,Saída,Manutenção,Ipsam a vero dicta.,28612.42,1
+235,5,2026-05-13,Saída,Salário,Sunt error soluta soluta.,2827.62,1
+236,5,2025-10-08,Entrada,Receita de Venda,Dolorum fuga temporibus cumque id esse.,21877.89,0
+237,5,2026-05-17,Saída,Aluguel,Inventore at atque distinctio aspernatur.,16735.48,1
+238,5,2026-04-08,Saída,Salário,Perspiciatis ab possimus repellendus voluptates in consequatur.,12383.18,0
+239,5,2025-09-29,Saída,Pagamento de Fornecedor,At rem aut facilis error fugit.,29055.12,0
+240,5,2026-06-27,Saída,Manutenção,Odit perspiciatis architecto natus.,3197.66,0
+241,5,2026-04-14,Entrada,Recebimento de Cliente,Ipsam quam occaecati corrupti.,33008.45,0
+242,5,2026-02-01,Entrada,Receita de Venda,Similique assumenda aut quibusdam nihil fugit.,17830.64,1
+243,5,2026-08-21,Saída,Salário,Ratione dolorum officia dolorum nobis quam.,22901.91,0
+244,5,2025-12-16,Entrada,Aporte de Capital,Sed omnis error.,42335.18,1
+245,5,2026-03-11,Entrada,Recebimento de Serviços,Deleniti hic officia quos recusandae dolores harum.,46489.67,0
+246,5,2025-11-30,Saída,Pagamento de Fornecedor,Architecto suscipit accusamus facere et harum saepe in.,5494.44,1
+247,5,2026-03-22,Saída,Manutenção,Quis veritatis quo accusantium.,10595.6,0
+248,5,2025-09-28,Entrada,Recebimento de Cliente,Dolor ullam veniam id enim.,28532.89,1
+249,5,2026-05-22,Saída,Salário,Incidunt illo odit modi corrupti assumenda.,4342.05,0
+250,5,2025-10-02,Entrada,Receita de Venda,Voluptate culpa eveniet nesciunt quis.,37432.53,0
+251,6,2026-04-29,Entrada,Aporte de Capital,Est ipsa veritatis dolores.,21281.71,0
+252,6,2025-12-02,Saída,Aluguel,Blanditiis nostrum animi pariatur omnis cupiditate.,11164.59,0
+253,6,2025-09-08,Saída,Salário,Praesentium cum veritatis minima.,26511.93,0
+254,6,2026-06-16,Entrada,Recebimento de Cliente,Cumque consectetur quos eaque suscipit.,37844.58,1
+255,6,2026-06-12,Entrada,Receita de Venda,Ex inventore minima.,13969.09,0
+256,6,2025-12-08,Saída,Despesas Administrativas,Occaecati libero magni animi similique cumque culpa.,18251.57,1
+257,6,2026-06-13,Saída,Combustível,Perferendis beatae qui a similique accusamus aliquid.,6545.51,0
+258,6,2026-01-14,Entrada,Empréstimo,Debitis vero alias rem.,21780.72,0
+259,6,2026-05-22,Saída,Despesas Administrativas,Dolore dolorum totam eum repudiandae nemo.,15855.33,0
+260,6,2025-10-17,Saída,Pagamento de Fornecedor,Debitis rem voluptatem.,6693.5,0
+261,6,2026-08-18,Entrada,Receita de Venda,Soluta sint quo est.,10618.94,0
+262,6,2025-10-05,Entrada,Recebimento de Cliente,Ab dicta natus esse numquam iure nihil.,38325.96,0
+263,6,2026-03-03,Saída,Manutenção,Quasi molestias recusandae corrupti ut.,3687.53,1
+264,6,2025-09-12,Saída,Marketing,Expedita saepe soluta veritatis a omnis sed.,5353.27,0
+265,6,2026-05-27,Saída,Impostos,Dignissimos voluptatem in vero.,15057.84,1
+266,6,2026-08-24,Saída,Salário,Quae at ullam tempore.,11972.43,0
+267,6,2026-03-12,Entrada,Aporte de Capital,Itaque quibusdam neque magnam odio hic.,1427.71,0
+268,6,2026-04-08,Entrada,Empréstimo,Ipsa vitae dolores ea.,29000.08,0
+269,6,2025-12-27,Saída,Marketing,Praesentium quasi et earum asperiores dicta.,8756.5,0
+270,6,2026-06-15,Saída,Pagamento de Fornecedor,Autem autem ipsum et blanditiis facere quo iste.,28989.37,0
+271,6,2026-02-20,Entrada,Recebimento de Serviços,At rem esse provident.,23274.8,1
+272,6,2026-04-12,Saída,Salário,Saepe eveniet at dolorum explicabo.,13157.68,0
+273,6,2026-03-10,Entrada,Recebimento de Cliente,Ea voluptatibus adipisci illo iste.,22065.99,0
+274,6,2026-06-04,Saída,Salário,Atque aut recusandae commodi aperiam.,11933.42,0
+275,6,2026-06-16,Saída,Manutenção,Consectetur reprehenderit fuga occaecati officia.,6725.0,0
+276,6,2026-04-04,Entrada,Receita de Venda,Totam asperiores voluptatum deserunt officia.,25768.92,1
+277,6,2026-06-26,Entrada,Recebimento de Serviços,Temporibus repudiandae ex aliquam.,25742.63,0
+278,6,2026-02-19,Saída,Manutenção,Unde inventore quam libero.,21848.64,0
+279,6,2026-01-21,Entrada,Recebimento de Cliente,Cupiditate dolor deleniti eius sunt alias.,5588.82,0
+280,6,2026-04-17,Saída,Impostos,Officia libero sunt laboriosam assumenda.,5287.62,0
+281,6,2026-01-21,Entrada,Receita de Venda,Dicta suscipit minima occaecati reiciendis recusandae.,9268.73,0
+282,6,2026-08-31,Saída,Despesas Administrativas,Laboriosam quos exercitationem natus eum earum.,22657.93,0
+283,6,2025-09-13,Saída,Manutenção,Dolor tempore quod animi voluptatibus minus quisquam voluptatum.,25940.98,0
+284,6,2026-08-25,Saída,Aluguel,Dolorum dolores modi recusandae.,13248.91,0
+285,6,2026-05-31,Saída,Despesas Administrativas,Nemo voluptatem harum vel voluptatibus.,18978.42,1
+286,6,2025-11-06,Saída,Pagamento de Fornecedor,Nihil rem possimus totam adipisci.,10623.07,0
+287,6,2026-05-17,Entrada,Empréstimo,Natus natus deleniti voluptates sunt laudantium est.,23356.25,0
+288,6,2026-03-02,Entrada,Receita de Venda,Animi nobis accusantium labore.,18752.51,0
+289,6,2026-01-03,Saída,Salário,Dicta consectetur quaerat ullam sapiente eum accusantium nesciunt.,19375.53,0
+290,6,2026-08-04,Entrada,Recebimento de Serviços,Sed similique vero fuga.,29906.95,0
+291,6,2026-08-13,Saída,Despesas Administrativas,Nesciunt excepturi eum voluptate quasi ipsa.,17451.85,1
+292,6,2026-04-25,Entrada,Aporte de Capital,Officiis cupiditate voluptas possimus ut ratione dolore.,45497.97,0
+293,6,2026-04-06,Entrada,Empréstimo,Fugiat quasi eos debitis.,30447.79,0
+294,6,2025-09-04,Entrada,Receita de Venda,Hic voluptatibus vitae adipisci nobis ullam voluptas.,22800.89,0
+295,6,2025-11-23,Saída,Salário,Aut libero ex aspernatur expedita eum odio.,15186.02,0
+296,6,2026-08-21,Entrada,Receita de Venda,Ipsum eaque dolorum architecto ducimus autem.,12763.31,0
+297,6,2025-09-04,Saída,Despesas Administrativas,Ipsa in cumque impedit sunt expedita.,15769.65,0
+298,6,2026-01-19,Entrada,Empréstimo,Ratione neque quis dolorem iste reiciendis alias.,18956.17,0
+299,6,2025-09-11,Saída,Marketing,Veritatis asperiores cumque fugiat quasi.,12322.2,0
+300,6,2026-03-22,Saída,Pagamento de Fornecedor,Excepturi voluptates tempora provident.,23697.89,0
+301,7,2026-02-08,Saída,Salário,Non ipsa amet ex.,9957.75,1
+302,7,2026-08-25,Saída,Combustível,Possimus quam quas eaque eligendi dolores.,7634.67,1
+303,7,2025-09-22,Entrada,Empréstimo,Mollitia laudantium amet a assumenda reprehenderit numquam.,4534.35,0
+304,7,2026-02-26,Entrada,Empréstimo,Ad cupiditate eos aspernatur.,15856.47,1
+305,7,2026-07-08,Saída,Aluguel,Quos iusto tempora eaque odit.,17891.73,0
+306,7,2026-01-23,Entrada,Empréstimo,Suscipit fuga ipsum ea iure dolorem.,28166.64,0
+307,7,2025-12-11,Saída,Aluguel,Corrupti possimus atque pariatur.,20136.48,0
+308,7,2026-06-25,Entrada,Aporte de Capital,Voluptas nihil mollitia sapiente repellendus in.,25670.18,0
+309,7,2026-03-18,Entrada,Empréstimo,Nemo doloremque error hic sequi alias necessitatibus.,15788.87,0
+310,7,2026-03-11,Entrada,Empréstimo,Perspiciatis nulla blanditiis quidem cupiditate voluptates voluptas.,47409.58,1
+311,7,2026-06-26,Saída,Impostos,Aliquam aspernatur placeat dicta.,6873.64,0
+312,7,2026-07-01,Entrada,Recebimento de Cliente,Rerum ducimus tenetur totam.,4319.67,0
+313,7,2025-09-28,Entrada,Recebimento de Serviços,Nam mollitia sequi maxime totam accusamus.,38658.3,1
+314,7,2026-05-17,Entrada,Empréstimo,Minima in impedit corporis nihil quis velit unde.,43881.44,0
+315,7,2026-03-28,Entrada,Recebimento de Serviços,Ratione sint sunt soluta.,19147.63,0
+316,7,2025-12-09,Entrada,Recebimento de Cliente,Nemo labore cupiditate illo nulla perspiciatis illo.,41651.58,0
+317,7,2026-01-26,Entrada,Aporte de Capital,Porro aliquid labore eaque fuga excepturi.,2662.78,1
+318,7,2026-06-20,Saída,Impostos,Eligendi laudantium possimus atque sit.,29090.7,0
+319,7,2025-10-23,Saída,Despesas Administrativas,Quo eum quas non at ipsam.,7096.69,1
+320,7,2026-08-03,Entrada,Empréstimo,Qui quis sint reprehenderit maiores culpa.,48297.03,0
+321,7,2025-12-26,Saída,Impostos,Illo quos minima necessitatibus cupiditate soluta dicta.,11098.44,1
+322,7,2025-09-25,Saída,Despesas Administrativas,Itaque ullam provident.,23106.21,1
+323,7,2025-12-13,Saída,Marketing,Magnam odio commodi adipisci fuga nisi debitis.,28991.42,1
+324,7,2026-07-18,Entrada,Recebimento de Serviços,Mollitia exercitationem saepe ea rerum at ad amet.,7350.73,0
+325,7,2026-07-12,Saída,Pagamento de Fornecedor,Sequi officia perspiciatis eaque illum.,19271.25,1
+326,7,2025-09-11,Saída,Salário,Labore consequatur cupiditate.,21370.89,0
+327,7,2026-06-23,Entrada,Empréstimo,Dolorum rem esse vitae odit.,4651.82,0
+328,7,2026-02-05,Entrada,Empréstimo,Sed itaque dolor error maxime numquam.,22741.3,0
+329,7,2026-04-05,Entrada,Aporte de Capital,Maiores optio sapiente.,5039.82,0
+330,7,2026-01-18,Entrada,Aporte de Capital,Non error autem aperiam voluptates odit similique ea.,44289.17,0
+331,7,2026-05-21,Entrada,Aporte de Capital,Deleniti maxime dolores animi similique.,3136.22,0
+332,7,2026-06-26,Saída,Impostos,Optio perspiciatis quam omnis voluptatum ea.,11646.37,1
+333,7,2026-02-03,Entrada,Empréstimo,Qui nesciunt voluptatum repellendus exercitationem quae.,11614.67,1
+334,7,2026-05-12,Saída,Salário,Temporibus perferendis magni sapiente saepe soluta debitis.,25191.37,0
+335,7,2025-10-09,Saída,Aluguel,Qui quam nam totam.,4214.23,0
+336,7,2026-08-15,Saída,Despesas Administrativas,Omnis dolore dolore sit in suscipit.,20912.55,0
+337,7,2026-01-17,Entrada,Aporte de Capital,Eos sed iusto sint nesciunt velit architecto suscipit.,22705.77,1
+338,7,2026-03-05,Entrada,Receita de Venda,Minus impedit sit corrupti voluptatibus exercitationem.,1440.69,0
+339,7,2026-08-30,Entrada,Recebimento de Cliente,Corporis similique debitis aspernatur ex voluptates et.,27665.81,0
+340,7,2025-09-25,Saída,Salário,Earum quis cumque quisquam laudantium quis at.,23307.56,1
+341,7,2026-04-16,Entrada,Empréstimo,Illo vitae fugit alias dicta fuga.,6531.49,1
+342,7,2025-09-09,Entrada,Aporte de Capital,Quidem minus accusantium a quasi dolorem.,32128.11,0
+343,7,2026-07-21,Saída,Salário,Consectetur fugit nihil cumque reprehenderit.,3414.65,1
+344,7,2025-12-21,Saída,Pagamento de Fornecedor,Iste maxime minima inventore placeat.,18995.45,0
+345,7,2025-10-22,Entrada,Recebimento de Cliente,Facere deleniti veniam ullam illo dolorem quas.,14917.96,1
+346,7,2025-10-21,Entrada,Recebimento de Serviços,Nihil cumque facilis.,17964.39,1
+347,7,2026-04-29,Saída,Aluguel,Fugiat odit quo.,19964.7,0
+348,7,2026-04-19,Entrada,Recebimento de Serviços,Voluptatum optio officiis accusantium porro impedit fugit molestias.,48745.4,1
+349,7,2026-02-24,Entrada,Recebimento de Serviços,Dignissimos placeat ab in.,27432.06,0
+350,7,2025-10-10,Entrada,Aporte de Capital,Earum non consequatur rerum autem quaerat blanditiis.,43729.91,0
+351,8,2025-10-15,Entrada,Aporte de Capital,Libero non quod rerum.,49061.45,0
+352,8,2026-08-25,Saída,Pagamento de Fornecedor,Provident eos aliquam libero dignissimos ut.,10777.11,0
+353,8,2026-01-02,Entrada,Empréstimo,Accusamus at beatae.,12435.73,0
+354,8,2026-04-01,Entrada,Recebimento de Serviços,Corrupti at maiores quam aut ducimus doloremque.,36891.76,0
+355,8,2026-08-30,Saída,Aluguel,Eaque amet repellat soluta sequi.,1425.64,1
+356,8,2026-01-13,Saída,Aluguel,Incidunt blanditiis sed tempora ab consequuntur.,24928.47,0
+357,8,2026-04-28,Saída,Despesas Administrativas,Facere ipsa numquam soluta at repellendus.,18988.9,0
+358,8,2025-11-09,Entrada,Receita de Venda,Id itaque saepe porro laboriosam in.,35944.23,0
+359,8,2026-07-24,Saída,Pagamento de Fornecedor,Beatae possimus animi velit.,8873.93,1
+360,8,2025-11-01,Entrada,Recebimento de Cliente,Tenetur laboriosam necessitatibus ipsa nostrum quod.,44346.62,0
+361,8,2026-04-15,Saída,Combustível,Laboriosam laborum suscipit ipsam.,15509.97,0
+362,8,2025-09-27,Saída,Combustível,Accusamus sit minima quia quam dolore.,1194.96,0
+363,8,2026-08-18,Entrada,Empréstimo,Maxime porro nulla inventore quas laboriosam.,18170.22,0
+364,8,2026-05-04,Entrada,Empréstimo,Corrupti repudiandae tempora nostrum accusamus vel.,14024.22,0
+365,8,2026-03-07,Saída,Marketing,Sequi sit asperiores laudantium dolores voluptas amet.,26695.65,0
+366,8,2025-11-24,Saída,Marketing,Illo doloremque itaque reiciendis ipsum sequi.,10237.2,1
+367,8,2026-02-14,Entrada,Aporte de Capital,Voluptatem quia accusantium illo.,34757.39,1
+368,8,2025-09-17,Saída,Combustível,A at nobis nulla esse magni dignissimos.,24054.33,0
+369,8,2026-05-07,Saída,Salário,Facilis amet dolore iste nam nulla.,12975.15,1
+370,8,2026-02-23,Entrada,Recebimento de Serviços,Quaerat beatae quis dolore exercitationem rerum.,15041.44,0
+371,8,2026-08-22,Entrada,Receita de Venda,Molestias fugiat autem tempore laudantium.,16732.04,0
+372,8,2026-06-30,Saída,Combustível,Autem nostrum deleniti ut hic itaque.,13432.88,0
+373,8,2026-06-16,Saída,Aluguel,Autem impedit unde saepe nihil quo.,20723.97,0
+374,8,2026-02-15,Saída,Despesas Administrativas,Vero consequatur libero minus aliquid vel saepe laboriosam.,1366.42,0
+375,8,2026-03-08,Saída,Marketing,Porro cupiditate repellendus aut.,8309.21,0
+376,8,2026-05-01,Entrada,Receita de Venda,Sunt magnam harum voluptatem totam quis earum vitae.,33723.6,0
+377,8,2026-08-24,Saída,Manutenção,Rem consequuntur nobis suscipit maiores sapiente molestias.,15441.27,0
+378,8,2025-12-27,Entrada,Receita de Venda,Odio dicta numquam enim exercitationem perferendis voluptatem.,7567.58,0
+379,8,2026-04-29,Saída,Pagamento de Fornecedor,Magnam possimus eum blanditiis.,3874.28,0
+380,8,2026-01-10,Entrada,Empréstimo,Nesciunt velit quae perferendis tempora modi soluta.,18426.45,0
+381,8,2026-02-05,Entrada,Recebimento de Serviços,Minima ad corporis.,8095.19,0
+382,8,2026-05-06,Saída,Manutenção,Eaque quos voluptates placeat corporis.,11223.2,0
+383,8,2025-09-26,Entrada,Recebimento de Serviços,Dignissimos molestiae facere iste nulla.,7315.91,0
+384,8,2026-05-08,Saída,Marketing,Sint quia natus dolores quos reiciendis enim.,9500.12,0
+385,8,2026-05-04,Saída,Impostos,Harum vero voluptate est mollitia accusamus.,28819.55,0
+386,8,2025-12-04,Entrada,Recebimento de Cliente,Sit similique ipsam dolorem odio quae facilis nihil.,25202.68,0
+387,8,2026-05-31,Saída,Salário,Quod vitae eos debitis placeat.,7927.12,0
+388,8,2025-11-11,Saída,Despesas Administrativas,Quasi blanditiis aliquam eius.,6515.66,1
+389,8,2025-12-09,Saída,Despesas Administrativas,Nesciunt ducimus ex quae.,6085.33,0
+390,8,2025-10-30,Entrada,Receita de Venda,Ut nisi quo numquam.,22876.11,1
+391,8,2026-07-08,Saída,Salário,Laudantium nemo facere quos et.,24334.35,0
+392,8,2025-11-23,Saída,Manutenção,Maxime ratione cum molestiae.,21315.26,0
+393,8,2026-01-29,Saída,Combustível,Dolore distinctio ex facere dolor quibusdam.,25555.73,0
+394,8,2026-03-16,Entrada,Empréstimo,Reprehenderit voluptatem ab pariatur ipsum temporibus nostrum.,25683.41,0
+395,8,2026-04-18,Entrada,Recebimento de Cliente,Placeat eum totam.,39707.25,0
+396,8,2026-08-14,Entrada,Aporte de Capital,Ducimus quam ad maxime quo maiores.,1801.06,0
+397,8,2026-03-08,Saída,Despesas Administrativas,Aliquam tempore deserunt maiores veniam cumque vero.,24129.49,1
+398,8,2026-03-19,Entrada,Recebimento de Serviços,Occaecati distinctio occaecati.,44270.2,1
+399,8,2025-11-20,Entrada,Empréstimo,Saepe dignissimos repudiandae soluta qui ipsa.,20208.92,0
+400,8,2026-06-29,Saída,Marketing,Quia corrupti itaque ex.,23098.02,0
+401,9,2025-10-05,Entrada,Recebimento de Cliente,Debitis dolorum architecto.,48632.8,0
+402,9,2026-06-30,Entrada,Aporte de Capital,Illum iste illo et harum.,23558.74,1
+403,9,2025-10-17,Saída,Aluguel,Odit nulla quidem.,26351.01,0
+404,9,2026-04-05,Entrada,Recebimento de Cliente,Facere magnam enim placeat.,21914.61,0
+405,9,2026-04-13,Entrada,Receita de Venda,Quisquam ipsa hic optio labore.,26146.06,0
+406,9,2026-03-17,Saída,Aluguel,Quia reiciendis sed eos.,4942.81,0
+407,9,2026-04-23,Entrada,Empréstimo,Perspiciatis totam recusandae quas fuga.,47400.42,0
+408,9,2026-08-16,Saída,Salário,Soluta consequuntur aliquam nemo hic molestias assumenda.,7593.1,0
+409,9,2025-11-19,Saída,Aluguel,Distinctio temporibus sed consequuntur delectus nulla.,18788.17,0
+410,9,2025-12-05,Entrada,Recebimento de Serviços,Delectus reiciendis sequi sed.,32228.88,0
+411,9,2026-08-10,Entrada,Recebimento de Cliente,Itaque mollitia enim architecto atque quas laborum.,33107.28,0
+412,9,2026-01-02,Saída,Pagamento de Fornecedor,Perferendis doloremque eligendi architecto.,24774.56,1
+413,9,2025-11-13,Entrada,Receita de Venda,Iste nulla esse nesciunt natus facilis et.,2750.36,0
+414,9,2026-02-07,Saída,Impostos,Et quos quae.,23032.07,0
+415,9,2026-04-25,Saída,Pagamento de Fornecedor,Saepe consequatur quasi soluta iure.,14991.34,1
+416,9,2026-01-12,Saída,Combustível,Laborum autem officia aspernatur eligendi.,14540.05,1
+417,9,2026-07-02,Saída,Combustível,Deserunt quasi occaecati quas tempora sed occaecati.,13660.97,0
+418,9,2026-06-27,Entrada,Recebimento de Cliente,Illo nihil temporibus mollitia molestiae voluptatum iusto quod.,22260.47,1
+419,9,2026-01-15,Saída,Despesas Administrativas,Tempora nihil similique consequatur magnam.,6200.29,0
+420,9,2025-10-07,Entrada,Empréstimo,Magnam optio sed rem nostrum cumque.,43143.51,0
+421,9,2026-03-10,Saída,Manutenção,Culpa necessitatibus natus sit corporis quasi vel.,29263.69,0
+422,9,2025-09-18,Entrada,Empréstimo,Doloremque eaque doloremque pariatur maxime recusandae harum.,25991.52,0
+423,9,2026-08-05,Entrada,Empréstimo,Aliquam officiis aut.,12466.02,0
+424,9,2026-08-23,Entrada,Empréstimo,Rerum ea molestias cupiditate officiis.,22755.0,0
+425,9,2026-01-15,Entrada,Receita de Venda,Maxime fugiat tenetur maiores.,3004.96,0
+426,9,2026-01-10,Saída,Marketing,Laborum laboriosam nobis magnam consequuntur cumque.,7523.28,0
+427,9,2025-10-02,Entrada,Empréstimo,Distinctio deleniti facere quaerat blanditiis.,46720.7,0
+428,9,2025-11-27,Saída,Impostos,Quam laboriosam laboriosam distinctio cum rerum.,22917.33,0
+429,9,2025-09-12,Saída,Despesas Administrativas,Consectetur nihil consequatur.,15012.92,0
+430,9,2026-03-10,Saída,Despesas Administrativas,Corporis cumque ullam maxime illo voluptas odit.,792.97,0
+431,9,2026-07-21,Saída,Despesas Administrativas,Veniam dolor non iusto laboriosam.,29003.93,1
+432,9,2025-11-23,Entrada,Recebimento de Serviços,Nobis recusandae reprehenderit delectus optio eaque.,17968.31,0
+433,9,2026-05-26,Entrada,Empréstimo,Ullam nisi architecto fugiat consequatur accusantium.,24997.26,0
+434,9,2026-03-13,Saída,Combustível,Placeat repudiandae non debitis temporibus nobis soluta.,16147.05,0
+435,9,2026-03-16,Entrada,Aporte de Capital,At optio temporibus molestiae.,7129.78,0
+436,9,2025-09-04,Saída,Manutenção,Minima fuga aliquam minus dolorem rem.,22939.32,1
+437,9,2026-06-19,Saída,Pagamento de Fornecedor,Expedita rem tenetur saepe nemo incidunt.,12077.39,0
+438,9,2025-12-05,Entrada,Empréstimo,Tenetur assumenda nisi molestiae ducimus.,27884.53,0
+439,9,2025-09-05,Entrada,Aporte de Capital,Neque blanditiis ab.,25460.65,0
+440,9,2026-04-30,Saída,Salário,Illum autem incidunt nesciunt ea modi.,3947.04,1
+441,9,2026-03-29,Entrada,Aporte de Capital,Eius perspiciatis quidem impedit quos laboriosam fuga mollitia.,18973.32,0
+442,9,2025-12-05,Saída,Manutenção,Neque quo id consequuntur sint.,22673.46,0
+443,9,2025-10-17,Entrada,Recebimento de Serviços,Ipsum praesentium cum dolor id.,25701.56,0
+444,9,2026-01-05,Entrada,Receita de Venda,Nostrum placeat amet harum odio rem reprehenderit.,2426.24,1
+445,9,2026-02-23,Saída,Despesas Administrativas,Ipsa aperiam dolore aspernatur alias fugit voluptates nostrum.,15628.05,0
+446,9,2026-03-13,Entrada,Recebimento de Serviços,Animi quo cupiditate laudantium ab sed ut maxime.,44710.02,0
+447,9,2025-11-14,Entrada,Empréstimo,Magni praesentium nostrum perferendis facere omnis voluptate assumenda.,46602.75,0
+448,9,2025-12-13,Saída,Aluguel,Explicabo hic nesciunt maxime qui architecto.,11849.34,0
+449,9,2025-10-06,Saída,Manutenção,Quas nam nesciunt expedita repellendus.,15268.72,0
+450,9,2025-11-25,Saída,Combustível,Iste illo a cupiditate magni.,14299.29,0
+451,10,2026-03-26,Entrada,Empréstimo,Eos veniam rem vero soluta repellat nemo.,16896.36,0
+452,10,2026-05-15,Entrada,Aporte de Capital,Natus quo quidem vero itaque itaque.,29393.26,0
+453,10,2026-04-06,Entrada,Recebimento de Serviços,Laboriosam ducimus fugit.,23992.22,1
+454,10,2026-06-18,Entrada,Receita de Venda,Perspiciatis dolorem et veritatis maxime.,29384.4,0
+455,10,2025-09-07,Entrada,Recebimento de Serviços,Dolorum at perferendis reprehenderit asperiores.,31636.75,0
+456,10,2026-08-09,Saída,Aluguel,Et dolor nemo delectus quia ut deleniti.,24667.67,0
+457,10,2026-05-31,Entrada,Receita de Venda,Quasi sit dignissimos dicta dolorum.,28842.23,0
+458,10,2026-04-17,Entrada,Recebimento de Cliente,Quod blanditiis aspernatur veritatis.,1437.4,0
+459,10,2026-03-02,Saída,Marketing,Quisquam molestiae aliquam.,4627.79,0
+460,10,2026-02-27,Entrada,Aporte de Capital,Et tempore sunt nemo eius delectus quisquam maiores.,25340.07,0
+461,10,2026-01-27,Saída,Pagamento de Fornecedor,Consectetur minima incidunt velit adipisci expedita similique.,21202.68,0
+462,10,2026-06-14,Entrada,Recebimento de Serviços,Voluptate praesentium itaque porro accusamus distinctio neque.,16589.95,0
+463,10,2025-12-31,Saída,Marketing,Similique deleniti ea earum vero exercitationem delectus incidunt.,9481.2,0
+464,10,2026-02-03,Entrada,Aporte de Capital,Facilis id iste necessitatibus voluptatem placeat.,45650.15,0
+465,10,2026-06-28,Saída,Manutenção,Rem nam sequi deserunt reiciendis.,20308.47,0
+466,10,2026-05-31,Saída,Despesas Administrativas,Rem debitis libero voluptatum sed maxime quam.,5848.7,1
+467,10,2026-06-17,Entrada,Empréstimo,Dolorum similique aliquid aut cum.,28125.29,0
+468,10,2025-11-21,Entrada,Empréstimo,Labore occaecati ipsum ex facere.,38673.13,0
+469,10,2026-03-27,Entrada,Aporte de Capital,Exercitationem illum expedita perspiciatis non.,16193.52,0
+470,10,2026-04-02,Saída,Combustível,Cupiditate quos explicabo perferendis laborum qui suscipit.,8704.9,0
+471,10,2026-01-21,Saída,Marketing,Iure vero sit odit unde.,24569.49,0
+472,10,2026-02-04,Entrada,Empréstimo,Nemo sed architecto cum dolorem et eos eaque.,2582.29,0
+473,10,2026-04-27,Entrada,Empréstimo,Suscipit quos vel quibusdam maxime.,46238.48,0
+474,10,2026-02-15,Saída,Despesas Administrativas,Delectus ad quas optio.,6498.21,1
+475,10,2026-08-13,Saída,Combustível,Distinctio id atque vel.,4204.46,1
+476,10,2026-02-23,Entrada,Recebimento de Cliente,Ad id quisquam.,3012.89,0
+477,10,2025-10-04,Entrada,Recebimento de Cliente,Nulla assumenda ut harum dolorem.,3098.31,0
+478,10,2026-05-31,Saída,Manutenção,Occaecati consectetur saepe adipisci optio similique.,21549.01,0
+479,10,2025-12-31,Entrada,Recebimento de Cliente,Iusto sit vel molestias consequatur veniam molestiae.,756.48,1
+480,10,2026-04-07,Entrada,Aporte de Capital,Occaecati odio natus minima odit est expedita.,32818.19,0
+481,10,2026-03-19,Saída,Despesas Administrativas,Ipsam facilis ea esse.,19551.11,0
+482,10,2025-09-04,Saída,Manutenção,Exercitationem iusto ab ullam.,8633.92,0
+483,10,2026-08-15,Entrada,Receita de Venda,Error quisquam reiciendis nisi reiciendis molestias deleniti.,32788.79,0
+484,10,2026-07-22,Entrada,Recebimento de Serviços,Hic cum qui harum fugiat ea.,37064.98,0
+485,10,2026-02-05,Entrada,Recebimento de Cliente,Maxime reiciendis nostrum possimus earum.,21185.31,0
+486,10,2026-04-28,Entrada,Receita de Venda,Repellat impedit sequi delectus enim odio nulla.,49860.0,0
+487,10,2025-12-12,Saída,Despesas Administrativas,Laudantium eum corrupti voluptas ad voluptas eligendi commodi.,5670.72,0
+488,10,2026-02-11,Saída,Pagamento de Fornecedor,Doloremque corrupti laudantium.,377.09,0
+489,10,2026-01-06,Entrada,Empréstimo,Ratione libero fuga possimus adipisci.,14585.8,1
+490,10,2025-10-03,Saída,Aluguel,Animi quod architecto iusto.,25546.69,0
+491,10,2025-11-13,Saída,Combustível,Repellendus repudiandae commodi quisquam dolorum.,5865.06,0
+492,10,2026-06-12,Entrada,Empréstimo,Doloribus voluptatum dicta quasi atque pariatur.,8543.47,0
+493,10,2025-11-19,Saída,Combustível,Placeat est eum occaecati aliquam vel.,21586.09,0
+494,10,2026-03-13,Entrada,Empréstimo,Laboriosam error facere amet pariatur.,39643.0,1
+495,10,2026-08-25,Entrada,Recebimento de Cliente,Odio eveniet cumque eius blanditiis.,30742.25,0
+496,10,2026-06-19,Saída,Marketing,Voluptas neque porro.,15506.89,0
+497,10,2026-05-13,Entrada,Aporte de Capital,Fuga at culpa at.,33628.16,0
+498,10,2026-04-17,Entrada,Recebimento de Cliente,Animi explicabo culpa modi autem laborum et nam.,24133.98,1
+499,10,2026-04-27,Entrada,Receita de Venda,Rem ipsa deserunt porro facere consequatur.,13408.87,0
+500,10,2026-07-29,Entrada,Aporte de Capital,Provident nam molestiae laudantium necessitatibus molestiae eum.,37810.95,0

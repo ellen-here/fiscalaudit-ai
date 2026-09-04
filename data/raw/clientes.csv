@@ -1,0 +1,51 @@
+﻿id_cliente,cnpj_cpf,nome_cliente,email,telefone,criado_em
+1,13.859.381/0001-41,Brenda Alves,samuel32@example.net,+55 46 8196-0013,2025-02-21 01:26:26.780511
+2,96.858.658/0001-21,Novais S.A.,ccamara@example.net,15 0265-4235,2024-11-17 18:26:35.425248
+3,195.323.338-74,Brito,catarina94@example.org,82 8161-8495,2025-10-30 20:24:08.453803
+4,93.818.658/0001-63,Srta. Ana Clara Ribeiro,amandabarros@example.org,+55 45 6475-2553,2026-01-06 15:43:52.103182
+5,10.877.925/0001-30,Pereira e Filhos,sophiesiqueira@example.org,+55 68 7648-3503,2026-04-27 09:59:25.006376
+6,29.320.881/0001-53,Dr. João Felipe Azevedo,ana-vitoriacunha@example.net,93 6724-2388,2025-03-15 00:48:05.152747
+7,55.967.452/0001-87,Mariane Pacheco,ofonseca@example.org,96 7101-2269,2024-10-20 12:16:44.103446
+8,570.649.227-58,Nina Moura,antonio18@example.com,38 1462-7048,2026-03-14 16:53:49.914931
+9,743.733.982-56,Pires Ltda.,leandrofreitas@example.org,0500 095 7015,2026-06-07 23:52:18.631781
+10,15.777.333/0001-47,da Costa,da-costaemanuel@example.org,89 1822-7824,2025-09-24 13:27:54.807356
+11,22.489.384/0001-68,Cunha,ana-liviaguerra@example.net,48 7871-3315,2024-09-19 11:18:15.179996
+12,57.463.314/0001-95,Heloísa Pastor,anthony-gabrielbarbosa@example.net,+55 32 3105-1834,2026-01-05 18:44:20.279124
+13,92.173.723/0001-91,Vitor Hugo Cardoso,yda-cruz@example.com,64 3116-5667,2026-05-28 02:54:46.430796
+14,30.573.488/0001-44,Rocha e Filhos,araujoisis@example.net,37 1333-8726,2025-01-16 03:21:57.008992
+15,81.324.801/0001-51,da Cruz,macedoisis@example.org,+55 27 8013-2677,2025-02-07 05:51:24.183083
+16,39.941.132/0001-50,Araújo,gabriellyabreu@example.com,11 7468-7234,2025-02-10 03:10:09.556438
+17,680.997.835-50,Vitor Hugo Araújo,danilo09@example.com,94 8208-1219,2024-10-23 17:59:56.047762
+18,92.569.246/0001-43,Nathan Campos,brunopinto@example.org,67 9985-4353,2025-03-17 03:10:04.099441
+19,78.369.864/0001-84,Rios Ramos Ltda.,wdias@example.org,+55 13 7991-1838,2025-03-16 19:54:28.950738
+20,56.324.241/0001-75,Azevedo,esterda-paz@example.org,74 8498-0841,2026-07-21 23:24:42.512813
+21,24.256.742/0001-30,da Luz Camargo S/A,yagoda-paz@example.net,+55 85 5348-7401,2025-12-11 10:30:43.705284
+22,18.494.490/0001-86,Aparecida,fariasjose-pedro@example.net,11 2786-8011,2026-07-26 10:43:15.980094
+23,80.981.111/0001-97,Nogueira Andrade Ltda.,lorenacardoso@example.org,24 5053-3158,2026-06-11 22:46:00.724257
+24,78.868.373/0001-92,Daniela da Costa,luiz-gustavojesus@example.org,+55 74 5634-2160,2026-05-24 06:59:11.127696
+25,261.564.103-43,Costa Marques Ltda.,rafael30@example.net,+55 81 6541-4586,2026-01-13 11:31:37.736623
+26,74.208.991/0001-90,Luísa Alves,da-luzluiz-henrique@example.net,11 0196-5569,2026-08-24 01:41:31.717239
+27,87.303.256/0001-57,Gomes - EI,thomasaparecida@example.net,73 0883-5615,2025-12-03 07:24:11.517301
+28,77.100.713/0001-51,Silveira Ltda.,julia56@example.net,19 8236-6299,2025-04-11 22:39:01.481797
+29,471.999.951-49,Agatha da Rosa,otto69@example.net,32 7773-8721,2025-03-30 09:44:55.325508
+30,680.180.187-72,Borges,ana-luizacamara@example.org,+55 64 0037-9176,2026-06-13 09:52:06.997556
+31,78.884.228/0001-26,Silva Sampaio - ME,pguerra@example.org,+55 12 1632-8708,2025-03-05 03:21:58.645768
+32,31.371.640/0001-87,Marques S.A.,hrios@example.net,31 7986-8727,2025-07-29 20:56:55.022049
+33,652.873.847-98,João Guilherme Vargas,ppires@example.com,74 1434-5581,2024-12-14 04:26:57.457026
+34,95.765.482/0001-66,Gomes Sales S.A.,davi-lucasleao@example.com,34 8760-3669,2026-07-27 04:26:49.667252
+35,41.330.165/0001-53,Mateus Mendes,fogacaana-cecilia@example.com,67 8893-7346,2025-08-24 20:35:02.377626
+36,85.325.107/0001-19,Fernandes,ksilveira@example.com,+55 54 9806-9901,2025-12-17 14:55:11.912647
+37,169.132.980-52,Ravi Cirino,da-luzgabrielly@example.com,+55 86 7556-4641,2025-08-13 15:44:07.338741
+38,785.597.319-79,Dra. Ana Júlia Ferreira,davi-miguelvasconcelos@example.net,+55 22 0330-9232,2025-08-16 00:47:12.760314
+39,83.690.584/0001-41,Nunes S.A.,qsampaio@example.com,+55 69 9912-4190,2026-07-14 15:20:44.294422
+40,34.196.199/0001-94,Gonçalves,dompastor@example.net,+55 95 1491-9058,2025-07-14 00:39:33.743707
+41,69.984.846/0001-16,Azevedo,apollo67@example.org,71 5726-2849,2026-04-17 11:30:08.766582
+42,22.162.512/0001-53,Martins,lsiqueira@example.com,32 3147-3799,2026-01-05 04:54:04.320184
+43,296.294.649-67,Sr. Thales Duarte,mariahcunha@example.com,+55 99 5494-8083,2024-11-05 15:28:01.277375
+44,573.355.995-19,Mendonça,maria-lauraramos@example.net,91 7014-3634,2026-01-02 02:46:12.232170
+45,80.200.151/0001-93,Melo,lais85@example.com,81 4443-1351,2026-02-28 18:22:33.209317
+46,21.871.969/0001-40,Srta. Evelyn Cunha,uda-mota@example.net,0300 941 3435,2025-01-13 04:25:28.843025
+47,37.985.510/0001-17,Vitor Cardoso,caleb08@example.com,+55 54 7109-4777,2025-05-10 23:38:04.334878
+48,499.371.902-68,José Mendes,azevedoisadora@example.com,+55 35 9022-9413,2024-11-29 15:10:39.354989
+49,81.777.835/0001-72,Heloisa Vasconcelos,cmachado@example.com,69 4990-9133,2025-03-16 10:11:25.818399
+50,159.693.853-79,Emanuel da Costa,domcastro@example.org,64 7974-0344,2026-01-30 14:58:55.564096

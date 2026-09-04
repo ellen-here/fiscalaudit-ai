@@ -1,68 +1,77 @@
 # 🧾 FiscalAudit AI
 
-> **Plataforma de Engenharia de Dados e Inteligência Artificial para conciliação e identificação de inconsistências em dados contábeis e financeiros.**
+> Projeto de Engenharia de Dados e IA para conciliação e identificação de inconsistências em dados contábeis e financeiros.
+
+## 🎯 Sobre o projeto
+
+O FiscalAudit AI é um projeto de estudo e portfólio que estou desenvolvendo com foco em **Engenharia de Dados e Inteligência Artificial**, aplicado ao contexto contábil e financeiro.
+
+A ideia surgiu a partir de um problema comum: empresas e escritórios de contabilidade trabalham com dados vindos de diferentes fontes e precisam conferir se essas informações estão corretas e se existe alguma inconsistência.
+
+O projeto busca automatizar parte desse processo, organizando os dados, fazendo cruzamentos entre diferentes fontes e destacando situações que podem precisar de uma análise mais detalhada.
+
+## 🔎 O que o projeto pretende analisar?
+
+Entre os casos que quero identificar estão:
+
+* Entradas e saídas que não correspondem aos registros financeiros;
+* Diferenças entre movimentações bancárias e documentos fiscais;
+* Notas fiscais duplicadas;
+* Valores muito diferentes do histórico;
+* Informações divergentes entre diferentes fontes;
+* Movimentações que precisam ser revisadas antes do fechamento.
+
+A ideia não é substituir a análise do contador, mas **facilitar o trabalho de revisão**, destacando os casos que merecem mais atenção.
 
 ---
 
-## 🎯 Problema que este projeto resolve
+## 🏗️ Arquitetura do projeto
 
-Escritórios de contabilidade recebem dados financeiros de dezenas de clientes e precisam conferir manualmente se:
+O fluxo planejado atualmente é:
 
-- Entradas e saídas estão coerentes entre si
-- Receitas estão compatíveis com os registros fiscais
-- Notas fiscais não estão duplicadas
-- Existem valores fora do padrão histórico
-- Informações de diferentes fontes divergem (banco × NF-e × sistema financeiro)
-- Determinadas movimentações precisam de revisão antes do fechamento
+```text
+        Dados dos clientes
+               ↓
+          Python / ETL
+               ↓
+      Limpeza e validação
+               ↓
+             MySQL
+               ↓
+       Regras de auditoria
+               ↓
+      Análise de dados / ML
+               ↓
+        Detecção de anomalias
+               ↓
+       IA Generativa / LLM
+               ↓
+       Relatório de análise
+```
 
-O **FiscalAudit AI** automatiza esse processo: organiza, cruza e analisa os dados, entregando ao contador exatamente o que merece atenção.
+O projeto está sendo desenvolvido por etapas. Algumas partes ainda estão em construção e serão adicionadas conforme o desenvolvimento avançar.
 
 ---
 
-## 🏗️ Arquitetura do Pipeline
+## 📁 Estrutura do projeto
 
-```
-        Arquivos dos Clientes
-               ↓
-           Python (ETL)
-               ↓
-      Limpeza e Validação
-               ↓
-            MySQL
-               ↓
-      Motor de Regras de Auditoria
-               ↓
-        Machine Learning
-        (Detecção de Anomalias)
-               ↓
-          IA Generativa
-          (LLM Assistente)
-               ↓
-    Relatório de Inconsistências
-         para o Contador
-```
-
----
-
-## 📁 Estrutura do Projeto
-
-```
+```text
 fiscalaudit-ai/
 │
 ├── docs/                          # Documentação e modelagem
-│   ├── modelagem.md               # Modelo de dados completo
+│   ├── modelagem.md               # Modelo de dados
 │   └── diagramas/                 # Diagramas ER e de fluxo
 │
 ├── sql/                           # Scripts SQL
-│   ├── 01_create_tables.sql       # DDL — criação das tabelas
+│   ├── 01_create_tables.sql       # Criação das tabelas
 │   ├── 02_seed_data.sql           # Dados fictícios para testes
-│   └── 03_audit_queries.sql       # Queries de auditoria e conciliação
+│   └── 03_audit_queries.sql       # Queries de auditoria
 │
-├── data/                          # Dados gerados (CSV)
+├── data/                          # Dados utilizados no projeto
 │   ├── raw/                       # Dados brutos simulados
-│   └── processed/                 # Dados após limpeza
+│   └── processed/                 # Dados após o tratamento
 │
-├── notebooks/                     # Jupyter Notebooks por fase
+├── notebooks/                     # Notebooks de desenvolvimento
 │   ├── 01_geracao_dados.ipynb
 │   ├── 02_etl_pipeline.ipynb
 │   ├── 03_regras_auditoria.ipynb
@@ -72,98 +81,136 @@ fiscalaudit-ai/
 ├── src/                           # Código-fonte Python
 │   ├── gerador/                   # Geração de dados fictícios
 │   ├── etl/                       # Pipeline ETL
-│   ├── auditoria/                 # Motor de regras
-│   ├── ml/                        # Modelos de Machine Learning
-│   └── relatorio/                 # Geração de relatórios com IA
+│   ├── auditoria/                 # Regras de auditoria
+│   ├── ml/                        # Machine Learning
+│   └── relatorio/                 # Geração de relatórios
 │
-├── tests/                         # Testes unitários
+├── tests/                         # Testes
 │
-├── docker-compose.yml             # MySQL + Streamlit em containers
+├── docker-compose.yml             # Configuração dos containers
 ├── requirements.txt               # Dependências Python
-└── README.md                      # Este arquivo
+└── README.md
 ```
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias
 
-| Tecnologia | Função |
-|---|---|
-| 🐍 Python | Linguagem principal |
-| 🐼 Pandas | Manipulação e análise de dados |
-| 🗄️ MySQL | Banco de dados relacional |
-| 🔄 ETL Pipeline | Ingestão, limpeza e transformação |
-| 🤖 Scikit-learn | Detecção de anomalias (Isolation Forest) |
-| 🧠 LLM / IA Generativa | Assistente inteligente para o contador |
-| 📊 Streamlit | Dashboard interativo |
-| 🐳 Docker | Containerização do ambiente |
-| 📚 Git / GitHub | Controle de versão |
-
----
-
-## 🗺️ Roadmap de Desenvolvimento
-
-| Fase | Descrição | Status |
-|---|---|---|
-| 1 | Planejamento e modelagem do banco de dados | ✅ Concluído |
-| 2 | DDL MySQL — criação das tabelas | ✅ Concluído |
-| 3 | Geração de dados fictícios com Python + Faker | 🔄 Em andamento |
-| 4 | Pipeline ETL (CSV → MySQL) | ⏳ Pendente |
-| 5 | Motor de regras de auditoria e conciliação | ⏳ Pendente |
-| 6 | Análise exploratória de dados | ⏳ Pendente |
-| 7 | Machine Learning — detecção de anomalias | ⏳ Pendente |
-| 8 | IA Generativa — relatório assistido por LLM | ⏳ Pendente |
-| 9 | Dashboard Streamlit | ⏳ Pendente |
-| 10 | Docker + documentação final | ⏳ Pendente |
+| Tecnologia             | Uso no projeto                    |
+| ---------------------- | --------------------------------- |
+| 🐍 Python              | Linguagem principal               |
+| 🐼 Pandas              | Manipulação e análise dos dados   |
+| 🗄️ MySQL              | Banco de dados relacional         |
+| 🔄 ETL                 | Limpeza e transformação dos dados |
+| 🤖 Scikit-learn        | Modelos de Machine Learning       |
+| 🧠 LLM / IA Generativa | Análise e geração de relatórios   |
+| 📊 Streamlit           | Dashboard                         |
+| 🐳 Docker              | Ambiente de execução              |
+| 📚 Git / GitHub        | Controle de versão                |
 
 ---
 
-## 🔎 Exemplos de Inconsistências Detectadas
+## 🗺️ Roadmap
 
-### 🔴 Alta Prioridade
-```
-R$ 18.450 em entradas bancárias sem correspondência com receitas registradas.
-→ Verificar extratos dos dias 05, 12 e 23 do mês.
+| Fase | Descrição                                     | Status          |
+| ---- | --------------------------------------------- | --------------- |
+| 1    | Planejamento e modelagem do banco             | ✅ Concluído     |
+| 2    | Criação das tabelas no MySQL                  | ✅ Concluído     |
+| 3    | Geração de dados fictícios com Python + Faker | 🔄 Em andamento |
+| 4    | Pipeline ETL (CSV → MySQL)                    | ⏳ Pendente      |
+| 5    | Regras de auditoria e conciliação             | ⏳ Pendente      |
+| 6    | Análise exploratória dos dados                | ⏳ Pendente      |
+| 7    | Machine Learning para detecção de anomalias   | ⏳ Pendente      |
+| 8    | IA Generativa para apoio na análise           | ⏳ Pendente      |
+| 9    | Dashboard com Streamlit                       | ⏳ Pendente      |
+| 10   | Docker e documentação final                   | ⏳ Pendente      |
+
+---
+
+## 🔎 Exemplos de inconsistências
+
+Alguns exemplos de situações que o projeto pretende identificar:
+
+### 🔴 Alta prioridade
+
+```text
+R$ 18.450 em entradas bancárias sem correspondência
+com receitas registradas.
+
+→ Verificar as movimentações do período.
 ```
 
-### 🟠 Média Prioridade
-```
+### 🟠 Média prioridade
+
+```text
 Faturamento informado: R$ 82.000
 Documentos encontrados: R$ 91.300
-⚠️ Diferença: R$ 9.300 — revisar NF-e do período.
+
+Diferença: R$ 9.300
+
+→ Revisar os documentos fiscais do período.
 ```
 
-### 🟡 Baixa Prioridade
+### 🟡 Baixa prioridade
+
+```text
+Despesas com combustível aumentaram 74%
+em relação à média dos últimos 6 meses.
+
+→ Verificar os lançamentos e documentos relacionados.
 ```
-Despesa com combustível aumentou 74% em relação à média dos últimos 6 meses.
-→ Solicitar comprovantes ao cliente.
-```
+
+> Os exemplos acima são fictícios e servem apenas para demonstrar o tipo de análise que o projeto pretende realizar.
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Como executar
+
+### 1. Clone o repositório
 
 ```bash
-# Clone o repositório
 git clone https://github.com/ellen-xploit/fiscalaudit-ai.git
 cd fiscalaudit-ai
+```
 
-# Instale as dependências
+### 2. Instale as dependências
+
+```bash
 pip install -r requirements.txt
+```
 
-# Suba o banco de dados com Docker
+### 3. Suba o banco de dados
+
+```bash
 docker-compose up -d
+```
 
-# Execute o DDL para criar as tabelas
+### 4. Crie as tabelas
+
+```bash
 mysql -u root -p fiscalaudit < sql/01_create_tables.sql
 ```
+
+> A forma de execução pode mudar conforme o ambiente e as próximas etapas do projeto.
+
+---
+
+## 🤝 Contribuições
+
+O projeto ainda está em desenvolvimento, então **sugestões, ideias, melhorias e contribuições são muito bem-vindas**.
+
+Se encontrar algum problema ou tiver alguma sugestão, fique à vontade para abrir uma *Issue* ou enviar um *Pull Request*.
 
 ---
 
 ## 📄 Licença
 
-MIT License — sinta-se livre para usar e adaptar.
+Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
 
 ---
 
-*Desenvolvido como projeto de portfólio em Engenharia de Dados e Inteligência Artificial.*
+## 📌 Status
+
+🚧 **Em desenvolvimento**
+
+Este é um projeto de portfólio e estudo, desenvolvido por etapas. Novas funcionalidades serão adicionadas conforme o projeto evoluir.

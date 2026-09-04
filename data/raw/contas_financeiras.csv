@@ -1,0 +1,401 @@
+﻿id_conta,id_empresa,id_cliente,id_fornecedor,tipo_titulo,valor_original,valor_pago,data_vencimento,data_pagamento,status_pagamento,descricao_pagamento
+1,1,,4.0,A Pagar,11717.97,11717.97,2026-06-21,2026-06-19,Pago,Similique est provident minima.
+2,1,26.0,,A Receber,45493.85,45493.85,2025-10-31,2025-10-30,Pago,Omnis natus culpa.
+3,1,,34.0,A Pagar,9235.69,0.0,2025-10-02,,Vencido,Veniam blanditiis et sunt quas quisquam.
+4,1,,16.0,A Pagar,45427.66,45427.66,2026-09-13,2026-09-10,Pago,Vero esse quia reprehenderit odio.
+5,1,,35.0,A Pagar,27748.18,27748.18,2026-07-14,2026-07-17,Pago,Quod autem delectus.
+6,1,22.0,,A Receber,27580.7,0.0,2026-07-25,,Vencido,Nulla non nostrum nisi doloremque ad.
+7,1,,28.0,A Pagar,24678.27,0.0,2025-10-07,,Vencido,Consequatur sapiente iusto officiis delectus harum.
+8,1,,15.0,A Pagar,35029.14,0.0,2026-03-24,,Pendente,Deserunt adipisci quisquam accusamus.
+9,1,,40.0,A Pagar,22284.68,22284.68,2025-12-27,2025-12-24,Pago,Dolore perferendis dicta dignissimos debitis.
+10,1,30.0,,A Receber,8482.34,0.0,2026-10-14,,Pendente,Sint laudantium eveniet itaque doloribus.
+11,1,2.0,,A Receber,1945.37,0.0,2026-02-23,,Pendente,Non repudiandae quam.
+12,1,,2.0,A Pagar,43185.42,37419.84,2026-02-18,2026-03-05,Pago,Nisi minima soluta ratione maxime iste.
+13,1,,6.0,A Pagar,34491.43,34491.43,2026-08-21,2026-08-30,Pago,Soluta doloribus modi.
+14,1,4.0,,A Receber,39437.05,39437.05,2026-10-27,2026-10-26,Pago,Nam maiores occaecati.
+15,1,21.0,,A Receber,19138.54,0.0,2025-09-24,,Pendente,Ipsa sunt quo enim.
+16,1,49.0,,A Receber,14819.26,0.0,2025-11-13,,Pendente,Nostrum amet maxime consequuntur.
+17,1,,39.0,A Pagar,33506.74,33506.74,2026-08-22,2026-09-02,Pago,At magnam debitis nesciunt tempora.
+18,1,,10.0,A Pagar,9033.53,9033.53,2026-04-24,2026-04-20,Pago,Impedit iste debitis nihil quae.
+19,1,25.0,,A Receber,23603.06,23603.06,2025-11-28,2025-11-24,Pago,At eum officiis quae cum.
+20,1,,1.0,A Pagar,33203.24,0.0,2026-07-12,,Vencido,Beatae ipsum facilis.
+21,1,23.0,,A Receber,31942.4,0.0,2026-04-14,,Pendente,Quas voluptate nostrum cum mollitia.
+22,1,34.0,,A Receber,7752.94,7752.94,2025-09-22,2025-09-30,Pago,Totam natus optio corrupti.
+23,1,,18.0,A Pagar,25730.62,0.0,2026-09-08,,Cancelado,Quisquam amet est quas.
+24,1,43.0,,A Receber,2735.2,2735.2,2026-10-17,2026-10-30,Pago,Occaecati blanditiis consectetur dicta.
+25,1,47.0,,A Receber,2381.1,2381.1,2026-05-26,2026-05-22,Pago,Accusamus libero libero rem.
+26,1,14.0,,A Receber,12247.38,12247.38,2026-05-20,2026-05-29,Pago,Dolores nihil labore illum aspernatur nobis.
+27,1,2.0,,A Receber,38686.61,38686.61,2025-12-17,2025-12-28,Pago,Eius occaecati reprehenderit dignissimos delectus animi.
+28,1,,9.0,A Pagar,3506.37,0.0,2026-01-30,,Pendente,Sequi pariatur saepe.
+29,1,,8.0,A Pagar,43302.99,0.0,2026-01-08,,Pendente,Aliquid impedit debitis.
+30,1,,36.0,A Pagar,45787.18,45787.18,2026-06-16,2026-06-19,Pago,Optio praesentium nemo natus vitae quibusdam.
+31,1,,36.0,A Pagar,47437.73,47437.73,2026-02-04,2026-02-15,Pago,At error fuga.
+32,1,,25.0,A Pagar,35993.62,0.0,2026-02-12,,Pendente,Quis sapiente aperiam.
+33,1,,26.0,A Pagar,13609.63,0.0,2026-03-23,,Pendente,Possimus earum minima.
+34,1,,10.0,A Pagar,34923.23,34923.23,2026-04-14,2026-04-14,Pago,Nostrum autem quas occaecati.
+35,1,27.0,,A Receber,15090.06,0.0,2026-10-28,,Pendente,Quam non ratione provident incidunt sed.
+36,1,49.0,,A Receber,35934.46,35934.46,2025-12-23,2026-01-03,Pago,Voluptatum explicabo consectetur natus maxime occaecati.
+37,1,14.0,,A Receber,5473.42,0.0,2026-04-01,,Cancelado,Sunt doloremque enim deserunt.
+38,1,6.0,,A Receber,23259.67,0.0,2025-10-24,,Pendente,Numquam blanditiis sed reiciendis voluptatum.
+39,1,19.0,,A Receber,47289.01,47289.01,2026-02-26,2026-03-04,Pago,Expedita rem distinctio odit porro.
+40,1,3.0,,A Receber,9573.48,9573.48,2025-12-21,2025-12-27,Pago,Est magni eum.
+41,2,35.0,,A Receber,34254.21,0.0,2025-09-06,,Pendente,Exercitationem quam nulla adipisci cupiditate.
+42,2,,6.0,A Pagar,23650.65,23650.65,2026-01-22,2026-01-26,Pago,Ullam laboriosam labore alias consequatur.
+43,2,,15.0,A Pagar,36619.77,36619.77,2025-11-09,2025-11-20,Pago,Tempora modi ex quos impedit.
+44,2,,18.0,A Pagar,16778.1,0.0,2026-07-16,,Cancelado,Error quam et modi dignissimos placeat.
+45,2,40.0,,A Receber,41638.14,0.0,2026-08-09,,Pendente,Architecto corrupti sapiente excepturi fugiat.
+46,2,3.0,,A Receber,14697.9,14697.9,2026-04-19,2026-04-23,Pago,Necessitatibus harum nisi sint.
+47,2,,14.0,A Pagar,45849.35,0.0,2026-07-20,,Pendente,Quae earum assumenda soluta fuga.
+48,2,13.0,,A Receber,41477.72,0.0,2026-08-22,,Pendente,Dolor esse beatae quos.
+49,2,46.0,,A Receber,6372.37,6372.37,2026-07-31,2026-07-29,Pago,Ipsam ad laboriosam.
+50,2,,7.0,A Pagar,35651.89,35651.89,2026-04-04,2026-04-02,Pago,Excepturi laboriosam soluta est.
+51,2,,39.0,A Pagar,48786.84,0.0,2026-01-21,,Pendente,Reprehenderit vel perspiciatis.
+52,2,,13.0,A Pagar,24781.28,0.0,2025-10-30,,Pendente,Itaque quae minima.
+53,2,15.0,,A Receber,2248.79,1928.75,2025-09-05,2025-09-02,Pago,Porro nisi assumenda.
+54,2,49.0,,A Receber,48096.54,0.0,2026-03-21,,Cancelado,Aut quisquam quia.
+55,2,,30.0,A Pagar,48048.77,0.0,2025-09-13,,Vencido,Odit distinctio dicta enim.
+56,2,,1.0,A Pagar,45602.09,0.0,2026-04-18,,Pendente,Perferendis earum culpa beatae vero.
+57,2,,2.0,A Pagar,29428.69,29428.69,2026-04-29,2026-05-11,Pago,Dignissimos expedita et.
+58,2,,39.0,A Pagar,26336.33,0.0,2025-11-03,,Pendente,Nemo cupiditate est tempora.
+59,2,22.0,,A Receber,23771.97,23771.97,2026-04-21,2026-04-25,Pago,Consectetur iusto perferendis.
+60,2,,27.0,A Pagar,45858.6,0.0,2025-10-19,,Vencido,Assumenda hic provident.
+61,2,,26.0,A Pagar,18584.87,18584.87,2026-09-17,2026-09-13,Pago,Saepe praesentium nulla est repellendus quae perferendis.
+62,2,,20.0,A Pagar,30303.46,0.0,2026-04-18,,Vencido,Necessitatibus at rem praesentium atque.
+63,2,7.0,,A Receber,27099.7,0.0,2026-01-13,,Pendente,Iusto veniam corporis tempore ducimus.
+64,2,34.0,,A Receber,24024.14,0.0,2026-02-05,,Vencido,Praesentium pariatur ratione sunt.
+65,2,,27.0,A Pagar,9976.88,0.0,2026-03-15,,Vencido,Aperiam beatae laboriosam.
+66,2,,14.0,A Pagar,30446.45,27253.51,2026-08-29,2026-09-03,Pago,Quisquam non consectetur aut.
+67,2,27.0,,A Receber,4114.21,0.0,2026-08-17,,Pendente,Eveniet officiis recusandae.
+68,2,,19.0,A Pagar,6763.61,6763.61,2026-04-18,2026-04-14,Pago,Nihil dolores doloribus culpa laboriosam.
+69,2,41.0,,A Receber,1356.33,1356.33,2025-10-02,2025-10-09,Pago,Repellendus nihil quos ipsa.
+70,2,28.0,,A Receber,48324.51,48324.51,2026-08-04,2026-08-02,Pago,Possimus cupiditate pariatur qui quae saepe.
+71,2,,9.0,A Pagar,21497.84,0.0,2025-10-22,,Vencido,Iure nam reprehenderit debitis veritatis architecto.
+72,2,,13.0,A Pagar,43779.01,0.0,2025-10-20,,Pendente,Quo fugiat laudantium optio at repellendus.
+73,2,,24.0,A Pagar,19712.31,0.0,2026-09-16,,Vencido,Quidem optio iste.
+74,2,,2.0,A Pagar,19498.32,18407.02,2026-01-05,2026-01-06,Pago,Neque deserunt placeat et necessitatibus totam.
+75,2,,12.0,A Pagar,38449.45,0.0,2026-01-11,,Pendente,Quaerat totam voluptatibus nesciunt nostrum.
+76,2,23.0,,A Receber,2886.99,2886.99,2026-04-08,2026-04-16,Pago,Sequi aperiam tempore.
+77,2,,32.0,A Pagar,31431.0,31431.0,2026-10-20,2026-11-04,Pago,Provident reprehenderit facere.
+78,2,,40.0,A Pagar,10779.67,10779.67,2026-09-05,2026-09-01,Pago,Doloremque praesentium hic.
+79,2,,16.0,A Pagar,15409.11,15409.11,2026-01-17,2026-01-26,Pago,Illo ipsa distinctio cupiditate consequuntur.
+80,2,,22.0,A Pagar,15132.48,15132.48,2026-04-28,2026-05-10,Pago,Saepe culpa voluptatum pariatur consequatur.
+81,3,,27.0,A Pagar,2592.19,0.0,2025-10-04,,Pendente,Corporis suscipit omnis.
+82,3,40.0,,A Receber,36275.71,0.0,2026-10-23,,Pendente,Assumenda odit impedit.
+83,3,29.0,,A Receber,34648.06,0.0,2026-03-16,,Pendente,Ut numquam iste incidunt reprehenderit harum.
+84,3,,33.0,A Pagar,18601.67,18601.67,2025-12-08,2025-12-12,Pago,Non neque sed dolores magnam.
+85,3,37.0,,A Receber,9334.37,0.0,2026-02-25,,Pendente,Nemo alias alias laboriosam fuga neque.
+86,3,17.0,,A Receber,29270.09,0.0,2026-10-17,,Pendente,Consequuntur quasi voluptates.
+87,3,50.0,,A Receber,31336.85,0.0,2026-10-27,,Vencido,Iure aspernatur suscipit at.
+88,3,36.0,,A Receber,32194.94,32194.94,2026-03-23,2026-04-01,Pago,Placeat molestiae neque.
+89,3,,34.0,A Pagar,14988.71,14988.71,2026-05-22,2026-05-29,Pago,Modi ab iste temporibus nemo.
+90,3,,10.0,A Pagar,16718.58,0.0,2026-01-22,,Pendente,Vero reiciendis enim alias ullam.
+91,3,,33.0,A Pagar,44400.72,44400.72,2026-07-19,2026-07-20,Pago,Ea occaecati neque nemo omnis eos.
+92,3,,13.0,A Pagar,5685.24,0.0,2026-07-14,,Vencido,Enim assumenda magni.
+93,3,,19.0,A Pagar,39092.25,39092.25,2026-08-31,2026-09-13,Pago,Dolorum nulla eius ducimus.
+94,3,,27.0,A Pagar,31224.23,0.0,2026-07-16,,Pendente,Cupiditate nihil corrupti ipsum repellat ea.
+95,3,10.0,,A Receber,20080.29,0.0,2026-06-28,,Pendente,Debitis minima alias voluptates voluptas nisi.
+96,3,2.0,,A Receber,32204.22,0.0,2026-08-19,,Pendente,Quidem impedit fugit optio quas cumque.
+97,3,,20.0,A Pagar,28214.48,0.0,2026-05-07,,Cancelado,Amet eaque reprehenderit amet iure.
+98,3,,34.0,A Pagar,30454.53,30454.53,2026-03-25,2026-03-31,Pago,Quia quibusdam minus fugit provident labore.
+99,3,,34.0,A Pagar,7184.6,0.0,2025-11-04,,Vencido,Accusamus unde ipsum perspiciatis vitae.
+100,3,,19.0,A Pagar,41452.28,0.0,2026-06-21,,Vencido,Atque minus explicabo.
+101,3,43.0,,A Receber,6154.92,0.0,2026-08-28,,Pendente,Ullam similique ex eaque atque omnis.
+102,3,22.0,,A Receber,1788.01,0.0,2026-02-17,,Vencido,Quasi nihil deserunt excepturi.
+103,3,,26.0,A Pagar,29648.45,29648.45,2026-06-24,2026-07-02,Pago,Et ab ab architecto.
+104,3,6.0,,A Receber,39244.96,39244.96,2026-02-25,2026-03-05,Pago,Aut ipsum dolor eligendi deserunt ad.
+105,3,,14.0,A Pagar,1042.17,1042.17,2025-10-13,2025-10-12,Pago,Omnis saepe veniam odit provident blanditiis.
+106,3,,34.0,A Pagar,15890.63,15890.63,2026-09-02,2026-08-31,Pago,Fugiat quisquam officia.
+107,3,13.0,,A Receber,38927.77,38927.77,2026-08-11,2026-08-24,Pago,Tempore possimus ducimus iure.
+108,3,33.0,,A Receber,13813.5,0.0,2026-10-06,,Vencido,Ullam eius incidunt temporibus quo.
+109,3,,11.0,A Pagar,24077.34,0.0,2026-01-19,,Pendente,Quos eius aperiam harum.
+110,3,,33.0,A Pagar,21882.13,21882.13,2026-11-01,2026-10-29,Pago,Veritatis eaque ipsam laudantium.
+111,3,,8.0,A Pagar,41735.4,41735.4,2026-10-03,2026-09-30,Pago,Hic officia autem molestiae inventore nostrum.
+112,3,,13.0,A Pagar,40771.39,40771.39,2025-10-19,2025-10-14,Pago,Quaerat aut asperiores necessitatibus dolorum.
+113,3,,5.0,A Pagar,18947.01,0.0,2026-03-12,,Pendente,Corrupti odit ut optio eaque praesentium.
+114,3,6.0,,A Receber,14863.82,14863.82,2026-09-23,2026-09-28,Pago,A provident quo laboriosam illo quas.
+115,3,,30.0,A Pagar,20567.22,0.0,2026-08-15,,Pendente,Molestiae a veritatis.
+116,3,,38.0,A Pagar,47486.36,47486.36,2026-08-17,2026-08-13,Pago,Commodi modi voluptatibus ex esse animi.
+117,3,15.0,,A Receber,31983.89,0.0,2026-11-01,,Pendente,Facilis sequi excepturi.
+118,3,29.0,,A Receber,22301.94,0.0,2026-08-27,,Pendente,Officia debitis aliquam fugit.
+119,3,,4.0,A Pagar,35801.47,35801.47,2025-11-24,2025-12-01,Pago,Tempore occaecati facere assumenda odio.
+120,3,43.0,,A Receber,6762.43,0.0,2026-07-13,,Pendente,Alias ad voluptatum.
+121,4,,36.0,A Pagar,39993.75,39993.75,2025-12-14,2025-12-29,Pago,Aperiam molestiae est modi rerum.
+122,4,25.0,,A Receber,46177.58,0.0,2026-03-13,,Cancelado,Alias animi ratione.
+123,4,,17.0,A Pagar,1429.93,0.0,2025-09-22,,Vencido,Distinctio omnis minima.
+124,4,5.0,,A Receber,48523.76,0.0,2026-10-08,,Pendente,Corrupti neque unde alias consequuntur officiis.
+125,4,15.0,,A Receber,4732.59,0.0,2026-03-23,,Pendente,Aliquid praesentium consectetur cupiditate amet esse.
+126,4,23.0,,A Receber,35831.47,0.0,2026-08-07,,Pendente,Nostrum saepe aperiam repellendus beatae.
+127,4,26.0,,A Receber,5703.05,4853.66,2026-05-14,2026-05-14,Pago,Dolore rem incidunt repellat voluptatem perspiciatis.
+128,4,,6.0,A Pagar,30265.48,0.0,2026-01-19,,Pendente,Molestias eum vitae distinctio aliquid cupiditate.
+129,4,,15.0,A Pagar,37591.78,0.0,2025-09-30,,Pendente,Consequuntur impedit possimus mollitia.
+130,4,9.0,,A Receber,23546.07,23546.07,2026-03-09,2026-03-16,Pago,Aliquam aut sed nostrum quod accusamus.
+131,4,,13.0,A Pagar,11147.21,0.0,2026-03-29,,Pendente,Ab unde provident.
+132,4,20.0,,A Receber,13450.55,0.0,2026-05-14,,Pendente,Impedit rem quo possimus.
+133,4,,38.0,A Pagar,16354.23,0.0,2025-11-30,,Pendente,Minima illum vel nostrum.
+134,4,19.0,,A Receber,25660.35,0.0,2025-09-19,,Cancelado,Quaerat nostrum at repudiandae.
+135,4,,28.0,A Pagar,13986.97,0.0,2026-01-10,,Cancelado,A doloremque blanditiis minus atque.
+136,4,,29.0,A Pagar,10483.05,0.0,2026-02-04,,Pendente,Magni iure occaecati dignissimos amet beatae.
+137,4,,26.0,A Pagar,23678.78,0.0,2025-11-06,,Pendente,Libero cum ullam amet facilis distinctio.
+138,4,,30.0,A Pagar,37123.55,37123.55,2025-12-19,2025-12-19,Pago,Rem quis aliquam qui unde debitis.
+139,4,,1.0,A Pagar,41747.71,41747.71,2026-08-03,2026-08-16,Pago,Maiores architecto doloremque ipsam neque in.
+140,4,,7.0,A Pagar,31524.8,0.0,2026-07-18,,Pendente,Dolorem beatae dolorem dolores impedit.
+141,4,11.0,,A Receber,28754.23,28754.23,2025-11-27,2025-12-11,Pago,Asperiores nesciunt amet ipsa.
+142,4,15.0,,A Receber,37966.56,0.0,2025-12-04,,Vencido,Iste harum consequatur quam odio voluptate.
+143,4,,35.0,A Pagar,12378.56,0.0,2025-11-28,,Pendente,Adipisci necessitatibus eligendi.
+144,4,,35.0,A Pagar,34172.13,29828.54,2025-10-21,2025-10-30,Pago,Itaque cupiditate exercitationem suscipit nobis.
+145,4,,32.0,A Pagar,39344.7,39344.7,2026-08-05,2026-08-13,Pago,Temporibus neque mollitia dolorem illum maxime.
+146,4,44.0,,A Receber,46377.14,0.0,2026-09-05,,Pendente,Nihil saepe eius quas.
+147,4,45.0,,A Receber,3336.12,0.0,2026-07-13,,Vencido,Dolorum ipsa dolore unde.
+148,4,16.0,,A Receber,45045.53,45045.53,2026-10-11,2026-10-06,Pago,Tempore in aliquid voluptatibus quasi magnam.
+149,4,49.0,,A Receber,411.9,384.74,2026-03-03,2026-03-03,Pago,Laboriosam reiciendis reprehenderit iste dolores.
+150,4,,23.0,A Pagar,16596.16,0.0,2026-04-29,,Pendente,Possimus illum dolor.
+151,4,44.0,,A Receber,43710.5,43710.5,2026-02-03,2026-02-15,Pago,Officia at laboriosam esse.
+152,4,7.0,,A Receber,34431.35,34431.35,2026-06-29,2026-06-26,Pago,Quibusdam ad iste quo soluta illo.
+153,4,,5.0,A Pagar,49090.59,0.0,2026-08-05,,Pendente,Occaecati provident a occaecati harum.
+154,4,30.0,,A Receber,37821.66,0.0,2026-06-24,,Cancelado,Adipisci incidunt earum veniam molestiae recusandae.
+155,4,16.0,,A Receber,21669.07,21669.07,2026-08-04,2026-08-16,Pago,Nulla excepturi ut.
+156,4,,11.0,A Pagar,6605.64,0.0,2026-04-10,,Vencido,Suscipit beatae facilis nulla facilis.
+157,4,3.0,,A Receber,47584.58,47584.58,2025-11-17,2025-11-29,Pago,Provident natus quo consequuntur ex molestiae.
+158,4,47.0,,A Receber,30031.68,30031.68,2026-06-06,2026-06-10,Pago,Sit praesentium quidem quis eum tempore.
+159,4,,20.0,A Pagar,44159.81,44159.81,2026-04-06,2026-04-17,Pago,Eius aperiam exercitationem laborum minima.
+160,4,,6.0,A Pagar,14393.23,14393.23,2025-10-26,2025-11-04,Pago,Perspiciatis minus eos numquam reiciendis veniam.
+161,5,,29.0,A Pagar,4855.79,0.0,2026-08-13,,Vencido,Deleniti sunt assumenda.
+162,5,,35.0,A Pagar,20262.17,20262.17,2026-02-17,2026-02-17,Pago,Enim vero autem eius.
+163,5,,40.0,A Pagar,22764.72,20747.82,2026-06-27,2026-07-12,Pago,Corrupti dignissimos veritatis ad impedit placeat.
+164,5,32.0,,A Receber,30638.47,30638.47,2026-10-04,2026-10-18,Pago,Expedita ipsam officia eos aperiam sit.
+165,5,33.0,,A Receber,25012.14,0.0,2025-12-11,,Vencido,Officia illum exercitationem officia eveniet nihil.
+166,5,,21.0,A Pagar,25951.01,0.0,2026-06-27,,Pendente,Ipsum esse consequatur ratione cupiditate ea.
+167,5,,35.0,A Pagar,16117.22,16117.22,2026-03-28,2026-03-28,Pago,Quo aliquid explicabo iste.
+168,5,,24.0,A Pagar,2878.04,0.0,2025-11-13,,Pendente,Quae eligendi voluptate saepe.
+169,5,,24.0,A Pagar,37851.69,37851.69,2026-06-25,2026-06-30,Pago,Cum blanditiis voluptatibus.
+170,5,37.0,,A Receber,2204.3,2204.3,2026-05-06,2026-05-18,Pago,Ea delectus natus alias et.
+171,5,,22.0,A Pagar,42668.34,0.0,2026-01-28,,Pendente,Ipsum voluptate modi commodi ad.
+172,5,,34.0,A Pagar,19840.72,19840.72,2026-10-04,2026-10-10,Pago,Veniam unde culpa.
+173,5,12.0,,A Receber,32023.57,32023.57,2026-10-21,2026-11-02,Pago,Voluptate ex provident labore enim velit.
+174,5,26.0,,A Receber,41566.33,0.0,2026-10-25,,Pendente,Pariatur reiciendis quas ullam excepturi beatae.
+175,5,,35.0,A Pagar,48035.59,0.0,2026-03-26,,Vencido,Consequuntur mollitia est.
+176,5,,22.0,A Pagar,20423.58,0.0,2026-02-21,,Pendente,Ipsum at animi odit.
+177,5,12.0,,A Receber,26792.1,26792.1,2026-05-09,2026-05-19,Pago,Quos quisquam deserunt assumenda.
+178,5,,22.0,A Pagar,19637.1,0.0,2026-08-31,,Cancelado,Voluptate hic laudantium.
+179,5,,26.0,A Pagar,47319.42,0.0,2026-05-18,,Pendente,Velit tenetur facere corporis sequi fuga.
+180,5,,22.0,A Pagar,26628.12,26628.12,2026-02-09,2026-02-11,Pago,Exercitationem est ipsum natus.
+181,5,,36.0,A Pagar,35617.58,32575.2,2025-12-04,2025-12-15,Pago,Qui impedit ipsam cum quas.
+182,5,25.0,,A Receber,47493.98,41891.79,2026-09-20,2026-09-30,Pago,Consequuntur nesciunt assumenda dignissimos labore.
+183,5,17.0,,A Receber,11443.07,0.0,2026-09-07,,Pendente,Architecto vero quidem at illum.
+184,5,,33.0,A Pagar,41269.13,0.0,2026-09-27,,Pendente,Cupiditate iure necessitatibus totam dicta.
+185,5,,31.0,A Pagar,30070.35,0.0,2026-08-23,,Pendente,Mollitia aliquam repudiandae rerum.
+186,5,,34.0,A Pagar,41701.32,41701.32,2026-01-11,2026-01-07,Pago,Qui dolore recusandae culpa error odit.
+187,5,,24.0,A Pagar,10746.24,10746.24,2026-06-01,2026-06-10,Pago,Officiis tempora impedit.
+188,5,,21.0,A Pagar,41431.69,0.0,2026-04-01,,Pendente,Adipisci quisquam laudantium voluptas.
+189,5,,12.0,A Pagar,18495.67,0.0,2026-05-16,,Vencido,Neque natus sit occaecati labore.
+190,5,31.0,,A Receber,36473.73,0.0,2026-06-26,,Cancelado,Fuga quasi accusantium.
+191,5,,16.0,A Pagar,40000.55,40000.55,2025-12-23,2025-12-18,Pago,Animi eum soluta consequatur cum earum.
+192,5,10.0,,A Receber,34947.16,34947.16,2026-03-01,2026-02-26,Pago,Aliquid eos odit asperiores deserunt.
+193,5,,23.0,A Pagar,9113.04,9113.04,2026-05-28,2026-05-26,Pago,Nisi cumque eum.
+194,5,36.0,,A Receber,3289.07,3289.07,2026-01-16,2026-01-26,Pago,Earum praesentium facere modi.
+195,5,,18.0,A Pagar,18241.03,0.0,2026-01-31,,Pendente,Accusamus maxime fuga.
+196,5,26.0,,A Receber,8390.64,0.0,2026-03-29,,Pendente,Ullam cum dolor magnam rerum.
+197,5,36.0,,A Receber,40512.16,0.0,2026-08-07,,Vencido,Nostrum rerum minima minus mollitia quidem.
+198,5,27.0,,A Receber,3200.95,3200.95,2025-10-22,2025-11-02,Pago,Totam blanditiis consectetur accusantium expedita.
+199,5,49.0,,A Receber,22654.05,22654.05,2026-06-24,2026-06-24,Pago,Repellendus suscipit nisi.
+200,5,,32.0,A Pagar,35393.25,35393.25,2026-07-25,2026-07-28,Pago,Cupiditate esse quia blanditiis consectetur.
+201,6,47.0,,A Receber,29539.56,0.0,2026-06-26,,Cancelado,Esse distinctio voluptatem incidunt.
+202,6,46.0,,A Receber,42126.34,0.0,2026-07-25,,Pendente,Aspernatur quo quidem.
+203,6,,20.0,A Pagar,47912.85,0.0,2025-09-22,,Vencido,Adipisci optio nihil.
+204,6,,28.0,A Pagar,49273.69,0.0,2026-03-22,,Pendente,Aliquam error ab atque.
+205,6,,3.0,A Pagar,2430.88,0.0,2025-10-26,,Vencido,Dignissimos temporibus delectus expedita at sapiente.
+206,6,41.0,,A Receber,11709.8,11709.8,2026-10-09,2026-10-11,Pago,Expedita cum magnam quas doloribus necessitatibus.
+207,6,,8.0,A Pagar,40025.81,0.0,2025-10-16,,Vencido,Quis minus quaerat vitae cupiditate quidem.
+208,6,,14.0,A Pagar,576.81,502.06,2025-09-05,2025-09-20,Pago,Unde ullam sed.
+209,6,36.0,,A Receber,36986.31,36986.31,2026-03-24,2026-03-28,Pago,Delectus perferendis autem rerum voluptatem incidunt.
+210,6,25.0,,A Receber,29445.75,0.0,2026-04-10,,Cancelado,Beatae voluptates commodi beatae consequatur.
+211,6,10.0,,A Receber,25129.35,0.0,2026-07-24,,Vencido,Nam aliquam eveniet blanditiis.
+212,6,,28.0,A Pagar,22615.52,22615.52,2026-01-02,2026-01-06,Pago,Quasi porro sapiente dolorem illum voluptates.
+213,6,10.0,,A Receber,37420.94,0.0,2026-03-04,,Pendente,Tempora rem vel.
+214,6,,24.0,A Pagar,14609.29,0.0,2026-02-07,,Vencido,Voluptatum laudantium autem.
+215,6,,34.0,A Pagar,11156.4,0.0,2026-03-09,,Vencido,Blanditiis hic possimus.
+216,6,,9.0,A Pagar,9764.06,0.0,2026-10-24,,Pendente,Aperiam voluptate excepturi nisi.
+217,6,,39.0,A Pagar,7417.67,0.0,2026-10-30,,Vencido,Doloremque incidunt libero.
+218,6,,20.0,A Pagar,31316.17,0.0,2026-07-26,,Pendente,Nisi quidem reiciendis velit explicabo pariatur.
+219,6,,6.0,A Pagar,26123.65,26123.65,2026-10-12,2026-10-13,Pago,Maiores corporis iste commodi laudantium doloremque.
+220,6,23.0,,A Receber,1504.0,0.0,2026-10-09,,Pendente,Aut amet architecto.
+221,6,26.0,,A Receber,26078.46,0.0,2026-06-19,,Pendente,Fugit perspiciatis corrupti numquam.
+222,6,12.0,,A Receber,39410.07,0.0,2025-10-14,,Vencido,Optio maxime laudantium.
+223,6,30.0,,A Receber,16246.19,16246.19,2026-03-21,2026-04-05,Pago,Optio laudantium ea exercitationem.
+224,6,31.0,,A Receber,7042.63,0.0,2026-09-04,,Pendente,Accusantium quisquam voluptatibus sunt blanditiis ipsum.
+225,6,,21.0,A Pagar,7379.55,0.0,2026-09-01,,Pendente,Itaque adipisci nam similique esse.
+226,6,25.0,,A Receber,45012.68,45012.68,2026-07-01,2026-07-08,Pago,Inventore est harum quisquam necessitatibus laudantium.
+227,6,,36.0,A Pagar,43490.81,43490.81,2026-04-27,2026-05-12,Pago,Nemo labore sequi magni hic libero.
+228,6,12.0,,A Receber,3447.1,3447.1,2026-10-21,2026-10-22,Pago,Perspiciatis quisquam eligendi aperiam nihil consectetur.
+229,6,,2.0,A Pagar,16493.38,0.0,2026-02-06,,Pendente,Ad tempora exercitationem atque exercitationem facere.
+230,6,,27.0,A Pagar,44113.47,0.0,2026-01-31,,Cancelado,Dolorum officia nihil tenetur.
+231,6,21.0,,A Receber,32965.18,32965.18,2025-10-01,2025-10-03,Pago,Beatae cumque modi alias.
+232,6,,16.0,A Pagar,44866.32,44866.32,2026-06-10,2026-06-12,Pago,Necessitatibus temporibus eaque possimus nihil.
+233,6,,21.0,A Pagar,27930.42,27930.42,2026-10-27,2026-11-06,Pago,Necessitatibus eum atque laborum porro.
+234,6,48.0,,A Receber,37259.9,37259.9,2025-11-30,2025-12-07,Pago,Magnam quisquam excepturi nostrum facilis ipsa.
+235,6,16.0,,A Receber,47112.35,47112.35,2026-04-03,2026-04-06,Pago,Saepe modi enim.
+236,6,40.0,,A Receber,35859.9,0.0,2025-09-24,,Pendente,Illo dolorem quia at sapiente atque.
+237,6,39.0,,A Receber,41295.99,0.0,2026-01-25,,Vencido,Necessitatibus minus incidunt.
+238,6,1.0,,A Receber,9583.7,0.0,2026-01-29,,Pendente,Officiis error rem.
+239,6,,11.0,A Pagar,3055.24,0.0,2026-03-06,,Pendente,Et impedit dolorum maiores perferendis molestias.
+240,6,49.0,,A Receber,26491.9,26491.9,2026-09-13,2026-09-23,Pago,Provident sint nemo distinctio vitae quia iusto.
+241,7,9.0,,A Receber,29105.05,29105.05,2026-10-07,2026-10-09,Pago,Repellat sequi tenetur vel quas animi.
+242,7,,10.0,A Pagar,1695.5,1695.5,2025-11-28,2025-11-27,Pago,Corporis corrupti placeat error ipsa.
+243,7,26.0,,A Receber,36541.39,31748.77,2026-01-17,2026-01-13,Pago,Odio sapiente eaque.
+244,7,,17.0,A Pagar,38121.54,38121.54,2026-01-03,2026-01-12,Pago,Ducimus nobis illo beatae.
+245,7,23.0,,A Receber,34274.79,34274.79,2025-11-24,2025-11-30,Pago,Reiciendis est laborum voluptatibus.
+246,7,12.0,,A Receber,12068.75,12068.75,2026-03-02,2026-02-26,Pago,Dicta earum adipisci.
+247,7,,2.0,A Pagar,14123.07,14123.07,2026-08-05,2026-08-20,Pago,Omnis debitis sequi vitae.
+248,7,,37.0,A Pagar,42802.73,42802.73,2026-03-29,2026-03-26,Pago,Animi tempore et.
+249,7,11.0,,A Receber,47718.48,0.0,2026-01-08,,Vencido,Tempore illum facilis.
+250,7,,2.0,A Pagar,39013.56,39013.56,2026-06-10,2026-06-23,Pago,Id saepe sapiente.
+251,7,43.0,,A Receber,1494.29,1494.29,2025-12-13,2025-12-28,Pago,Quasi ut maxime repudiandae veniam ut.
+252,7,,4.0,A Pagar,30720.38,0.0,2025-12-20,,Pendente,Dolores commodi rem.
+253,7,,37.0,A Pagar,20954.55,20954.55,2026-01-21,2026-02-03,Pago,Qui rem quia vel dolor autem.
+254,7,6.0,,A Receber,30552.25,0.0,2025-12-03,,Pendente,Ipsa ducimus nihil laudantium.
+255,7,4.0,,A Receber,31774.55,31774.55,2026-02-10,2026-02-10,Pago,Et incidunt placeat.
+256,7,,30.0,A Pagar,20682.54,20682.54,2026-10-18,2026-10-16,Pago,Facilis quaerat reprehenderit.
+257,7,,8.0,A Pagar,5901.67,5901.67,2025-09-12,2025-09-12,Pago,Alias qui reiciendis amet totam perferendis.
+258,7,,8.0,A Pagar,30990.15,0.0,2025-12-20,,Pendente,Est vero facilis repellat commodi.
+259,7,,22.0,A Pagar,33187.37,0.0,2026-09-07,,Vencido,Harum tenetur hic voluptate ducimus.
+260,7,16.0,,A Receber,10138.18,10138.18,2025-10-12,2025-10-08,Pago,Error similique cum ipsa.
+261,7,37.0,,A Receber,9864.5,9864.5,2026-01-16,2026-01-11,Pago,Ratione earum aspernatur quod laudantium.
+262,7,,30.0,A Pagar,32636.14,32636.14,2026-07-14,2026-07-25,Pago,Quaerat soluta reprehenderit repudiandae praesentium.
+263,7,,10.0,A Pagar,38288.7,0.0,2026-04-07,,Pendente,In quas molestias eveniet possimus.
+264,7,,6.0,A Pagar,14437.19,14437.19,2026-07-24,2026-08-08,Pago,Occaecati ratione consequatur id.
+265,7,,22.0,A Pagar,43034.24,43034.24,2026-05-29,2026-05-28,Pago,Nemo beatae dolorum quae quisquam.
+266,7,,39.0,A Pagar,14549.63,0.0,2026-06-06,,Pendente,Sed placeat recusandae.
+267,7,,24.0,A Pagar,49729.98,49729.98,2026-01-17,2026-01-14,Pago,Sit consequatur cupiditate nihil eveniet eligendi.
+268,7,,14.0,A Pagar,35868.96,35868.96,2025-10-09,2025-10-22,Pago,Delectus soluta velit sunt dolore.
+269,7,2.0,,A Receber,38885.24,0.0,2026-10-11,,Pendente,Officia occaecati tenetur voluptate dicta praesentium.
+270,7,8.0,,A Receber,7351.39,0.0,2025-11-14,,Pendente,Nulla nobis corrupti vero cumque.
+271,7,36.0,,A Receber,16533.96,16533.96,2026-05-03,2026-05-02,Pago,Quaerat ipsa ullam.
+272,7,,2.0,A Pagar,13190.06,0.0,2026-03-15,,Pendente,Blanditiis quae deleniti similique quos enim.
+273,7,,2.0,A Pagar,7300.04,6294.91,2026-04-02,2026-04-16,Pago,Inventore dignissimos dolor.
+274,7,,31.0,A Pagar,11771.1,10710.6,2026-08-20,2026-08-16,Pago,In illum corporis enim.
+275,7,47.0,,A Receber,36160.91,0.0,2025-12-24,,Pendente,Iste dolorum nesciunt officia assumenda iusto.
+276,7,38.0,,A Receber,1412.31,0.0,2026-09-09,,Pendente,Porro quae provident quasi ducimus.
+277,7,,19.0,A Pagar,26693.05,0.0,2025-10-14,,Vencido,Amet ut iusto.
+278,7,,22.0,A Pagar,16175.93,0.0,2026-02-01,,Cancelado,Vel voluptas nisi quibusdam aliquid ducimus.
+279,7,,1.0,A Pagar,11325.29,11325.29,2026-05-25,2026-05-27,Pago,Voluptate perferendis consequatur tempora.
+280,7,,8.0,A Pagar,1137.95,1137.95,2025-09-21,2025-10-01,Pago,Ea magnam ut soluta.
+281,8,24.0,,A Receber,21332.5,21332.5,2025-10-30,2025-11-05,Pago,Quae inventore ea et voluptatem.
+282,8,38.0,,A Receber,33950.3,0.0,2026-04-04,,Cancelado,Quibusdam unde eligendi soluta.
+283,8,19.0,,A Receber,21430.95,0.0,2026-05-22,,Pendente,Maxime ipsa cumque qui.
+284,8,,17.0,A Pagar,24134.7,0.0,2026-03-31,,Pendente,Nam ullam odio.
+285,8,30.0,,A Receber,21878.99,0.0,2026-03-09,,Pendente,Corrupti dolorem alias ea.
+286,8,,8.0,A Pagar,39923.77,34041.58,2026-07-01,2026-07-09,Pago,Blanditiis tempora libero ipsam voluptates.
+287,8,,7.0,A Pagar,22631.49,0.0,2026-04-30,,Pendente,Laudantium sapiente sint commodi atque.
+288,8,,32.0,A Pagar,8345.16,8345.16,2026-09-07,2026-09-18,Pago,Rerum quibusdam reprehenderit natus.
+289,8,,24.0,A Pagar,22553.73,0.0,2026-06-12,,Pendente,Nesciunt voluptas minima necessitatibus.
+290,8,,7.0,A Pagar,48717.8,48717.8,2026-02-27,2026-02-28,Pago,Doloribus libero atque.
+291,8,,27.0,A Pagar,22812.27,0.0,2026-01-21,,Pendente,Perspiciatis perspiciatis hic nihil.
+292,8,46.0,,A Receber,11690.69,0.0,2026-10-13,,Pendente,Corrupti aspernatur rerum optio iste.
+293,8,,19.0,A Pagar,18247.72,18247.72,2026-10-14,2026-10-18,Pago,Omnis eveniet aliquam numquam iste veniam.
+294,8,,26.0,A Pagar,8996.54,8155.48,2026-11-02,2026-11-02,Pago,Consectetur sint reiciendis eligendi reiciendis quia.
+295,8,35.0,,A Receber,43012.41,43012.41,2026-04-24,2026-05-02,Pago,Fugit id debitis vitae sint at.
+296,8,32.0,,A Receber,1775.3,0.0,2026-09-01,,Pendente,Harum illo officia veritatis.
+297,8,,22.0,A Pagar,10188.55,10188.55,2025-11-08,2025-11-09,Pago,Laudantium inventore rem est.
+298,8,11.0,,A Receber,41182.5,0.0,2026-06-22,,Vencido,Facere atque facilis.
+299,8,17.0,,A Receber,41965.04,0.0,2025-11-27,,Vencido,Suscipit labore natus in quidem.
+300,8,10.0,,A Receber,4222.99,4222.99,2026-08-14,2026-08-13,Pago,Delectus occaecati at maiores voluptate perspiciatis.
+301,8,2.0,,A Receber,1894.61,0.0,2026-06-06,,Cancelado,Ut minima officia.
+302,8,27.0,,A Receber,21450.51,21450.51,2025-10-09,2025-10-22,Pago,Ipsa tenetur labore corrupti consectetur.
+303,8,,5.0,A Pagar,39816.64,0.0,2026-09-22,,Pendente,Minima eos aliquid asperiores.
+304,8,43.0,,A Receber,23527.72,0.0,2025-09-23,,Vencido,Magni impedit iure.
+305,8,,2.0,A Pagar,37526.43,0.0,2026-07-07,,Pendente,Explicabo nesciunt quisquam accusamus.
+306,8,,35.0,A Pagar,38483.15,38483.15,2026-07-15,2026-07-28,Pago,Debitis delectus hic assumenda soluta.
+307,8,37.0,,A Receber,450.44,0.0,2026-01-08,,Pendente,Quam quidem ipsum repellat exercitationem ullam.
+308,8,,21.0,A Pagar,39287.55,0.0,2026-08-14,,Pendente,Delectus quia nobis sit.
+309,8,,38.0,A Pagar,15092.15,0.0,2025-10-19,,Vencido,Accusantium hic accusamus omnis itaque illo.
+310,8,26.0,,A Receber,39231.3,39231.3,2026-06-10,2026-06-12,Pago,Quas esse repellat nulla porro vitae.
+311,8,,13.0,A Pagar,23323.41,23323.41,2026-06-17,2026-06-25,Pago,Assumenda consequatur deleniti repellendus.
+312,8,39.0,,A Receber,27960.14,0.0,2026-06-26,,Pendente,Similique distinctio officiis officiis.
+313,8,25.0,,A Receber,47785.97,0.0,2026-03-08,,Pendente,Similique molestiae assumenda quo corporis in blanditiis.
+314,8,19.0,,A Receber,47641.55,47641.55,2026-09-22,2026-09-24,Pago,Vitae iusto similique nesciunt dicta.
+315,8,,12.0,A Pagar,38181.1,38181.1,2026-05-04,2026-05-15,Pago,Amet ab occaecati quae voluptatem.
+316,8,38.0,,A Receber,28552.59,0.0,2026-08-30,,Pendente,Nisi mollitia enim laborum laborum nihil.
+317,8,1.0,,A Receber,3629.68,0.0,2026-05-21,,Vencido,Doloremque aperiam accusantium nemo mollitia eaque.
+318,8,11.0,,A Receber,44206.22,0.0,2026-06-06,,Vencido,Blanditiis numquam officia ipsum ipsa cum.
+319,8,,2.0,A Pagar,10952.81,0.0,2026-07-09,,Pendente,Exercitationem doloremque dolor tenetur excepturi nobis.
+320,8,35.0,,A Receber,42259.27,0.0,2026-08-28,,Pendente,Consectetur eos quae vero rerum.
+321,9,4.0,,A Receber,42099.06,42099.06,2026-06-17,2026-07-02,Pago,Recusandae reiciendis sapiente numquam eligendi.
+322,9,7.0,,A Receber,42526.08,0.0,2026-07-19,,Vencido,Consectetur dicta non aut impedit voluptatibus.
+323,9,,16.0,A Pagar,18658.04,18658.04,2026-01-11,2026-01-22,Pago,Nam voluptatum facere ea.
+324,9,10.0,,A Receber,44903.11,0.0,2026-06-18,,Pendente,Repudiandae tempora adipisci aperiam.
+325,9,2.0,,A Receber,36628.55,36628.55,2026-03-06,2026-03-10,Pago,Dolorem natus laborum voluptatibus quos quo.
+326,9,,5.0,A Pagar,48534.26,0.0,2026-07-28,,Vencido,Eaque corrupti porro maiores pariatur provident.
+327,9,20.0,,A Receber,26894.67,0.0,2026-10-02,,Pendente,Reiciendis vitae quidem voluptate quos.
+328,9,,29.0,A Pagar,47356.12,0.0,2026-05-21,,Vencido,Reprehenderit aliquam autem.
+329,9,,37.0,A Pagar,49147.94,0.0,2026-05-29,,Cancelado,Tenetur culpa eos ipsam.
+330,9,29.0,,A Receber,46645.6,39768.61,2026-04-07,2026-04-19,Pago,Culpa facilis reprehenderit.
+331,9,,27.0,A Pagar,23873.09,22303.66,2025-10-26,2025-10-27,Pago,Ipsa impedit quisquam doloribus.
+332,9,37.0,,A Receber,4530.86,4144.81,2026-08-13,2026-08-10,Pago,Enim cupiditate eaque quaerat impedit.
+333,9,,33.0,A Pagar,44582.2,44582.2,2026-05-29,2026-05-29,Pago,Corrupti quidem in dolorem.
+334,9,36.0,,A Receber,45219.44,0.0,2026-08-10,,Pendente,Ullam tempore veritatis maiores placeat.
+335,9,38.0,,A Receber,47180.53,47180.53,2026-10-10,2026-10-25,Pago,Corporis ab rem velit assumenda.
+336,9,,18.0,A Pagar,2443.79,2443.79,2026-01-15,2026-01-18,Pago,Ipsa hic alias ullam.
+337,9,,38.0,A Pagar,21349.08,20067.25,2025-11-07,2025-11-22,Pago,Animi occaecati quae optio maxime eos.
+338,9,,12.0,A Pagar,24529.09,24529.09,2026-02-21,2026-03-05,Pago,Sit quam et exercitationem repudiandae tempore.
+339,9,,22.0,A Pagar,36226.41,36226.41,2026-05-21,2026-05-30,Pago,Praesentium ipsum dignissimos.
+340,9,12.0,,A Receber,14854.64,0.0,2026-04-23,,Pendente,Officiis possimus suscipit quos illo deserunt.
+341,9,45.0,,A Receber,32090.8,0.0,2026-01-10,,Vencido,Modi harum quaerat.
+342,9,25.0,,A Receber,27475.88,27475.88,2026-09-12,2026-09-20,Pago,Voluptatibus eligendi at mollitia maxime quidem.
+343,9,,18.0,A Pagar,22817.07,19421.01,2025-11-11,2025-11-23,Pago,Tempora molestiae ea.
+344,9,7.0,,A Receber,19480.98,0.0,2026-08-23,,Pendente,Quas voluptates beatae animi.
+345,9,38.0,,A Receber,38074.45,0.0,2026-02-09,,Vencido,Magni commodi quidem velit ipsum nemo a.
+346,9,18.0,,A Receber,27268.2,0.0,2026-01-26,,Pendente,Rem voluptates natus tempora.
+347,9,,18.0,A Pagar,26870.72,26870.72,2026-05-28,2026-06-11,Pago,Sapiente doloremque error pariatur repellendus nemo.
+348,9,,28.0,A Pagar,7131.73,0.0,2025-11-02,,Pendente,Maxime dolorum eveniet neque reprehenderit.
+349,9,10.0,,A Receber,49532.58,49532.58,2026-02-04,2026-02-17,Pago,Corporis incidunt illum.
+350,9,,28.0,A Pagar,1396.13,0.0,2025-10-13,,Vencido,Suscipit labore ipsum fuga minima.
+351,9,,20.0,A Pagar,3970.5,0.0,2026-05-12,,Cancelado,Quod sit nesciunt odio voluptatum porro.
+352,9,,38.0,A Pagar,44834.17,0.0,2026-10-11,,Cancelado,Reprehenderit corporis consectetur quae consectetur.
+353,9,,23.0,A Pagar,33160.7,0.0,2026-06-30,,Cancelado,Blanditiis distinctio labore quia velit fuga.
+354,9,,14.0,A Pagar,35822.32,0.0,2026-10-13,,Pendente,Sequi beatae fuga enim minima blanditiis.
+355,9,,31.0,A Pagar,36069.81,0.0,2026-01-11,,Vencido,Esse laborum ratione consequuntur nihil.
+356,9,12.0,,A Receber,49056.33,0.0,2025-09-24,,Pendente,Suscipit dolor reprehenderit laborum.
+357,9,21.0,,A Receber,27947.8,0.0,2025-10-25,,Pendente,Architecto aliquid laboriosam est iste.
+358,9,50.0,,A Receber,41553.92,0.0,2026-01-25,,Pendente,Labore quam non quis magnam.
+359,9,,24.0,A Pagar,45349.53,0.0,2026-03-18,,Pendente,Pariatur corrupti quas at numquam.
+360,9,32.0,,A Receber,7488.83,0.0,2026-05-27,,Pendente,Doloremque hic molestiae vero suscipit.
+361,10,,28.0,A Pagar,16098.82,0.0,2026-07-13,,Pendente,Sint provident nemo.
+362,10,,19.0,A Pagar,13897.92,13897.92,2026-08-08,2026-08-05,Pago,Natus commodi nam deserunt.
+363,10,49.0,,A Receber,37094.68,0.0,2026-05-24,,Vencido,Quidem vero maxime quibusdam magnam accusantium.
+364,10,,34.0,A Pagar,6600.83,0.0,2026-06-10,,Pendente,Debitis accusantium ratione doloribus provident suscipit.
+365,10,,35.0,A Pagar,27189.78,0.0,2026-03-11,,Vencido,Non illo aliquid similique ad ipsa.
+366,10,,26.0,A Pagar,23247.74,19945.68,2026-02-27,2026-03-02,Pago,Et ducimus beatae aut cumque corporis.
+367,10,34.0,,A Receber,42435.21,0.0,2025-12-21,,Pendente,Culpa veritatis perspiciatis.
+368,10,,21.0,A Pagar,31240.61,0.0,2025-09-29,,Vencido,Delectus quae error atque consequuntur.
+369,10,17.0,,A Receber,27431.98,27431.98,2026-09-18,2026-09-20,Pago,Fugiat repudiandae commodi dicta.
+370,10,45.0,,A Receber,31041.69,31041.69,2026-07-20,2026-07-27,Pago,Dolores magni magnam veniam earum et.
+371,10,45.0,,A Receber,44658.4,0.0,2026-04-27,,Pendente,Laborum illum doloremque.
+372,10,38.0,,A Receber,13282.58,13282.58,2026-09-15,2026-09-13,Pago,Mollitia nesciunt aut quis.
+373,10,,40.0,A Pagar,6997.95,6997.95,2026-06-07,2026-06-17,Pago,Esse illum assumenda.
+374,10,16.0,,A Receber,34940.45,34940.45,2026-06-01,2026-06-07,Pago,Quos consequuntur molestiae cumque.
+375,10,,5.0,A Pagar,23881.7,23881.7,2025-12-17,2025-12-19,Pago,Vero nam aliquam repellat vero.
+376,10,14.0,,A Receber,21236.07,0.0,2026-05-25,,Pendente,A ut laboriosam nisi.
+377,10,,7.0,A Pagar,25878.99,0.0,2026-08-26,,Pendente,Voluptatum sapiente distinctio sapiente eligendi.
+378,10,39.0,,A Receber,3073.82,2795.37,2025-11-11,2025-11-26,Pago,Natus error hic commodi consequuntur nam.
+379,10,9.0,,A Receber,15146.05,0.0,2025-12-31,,Cancelado,Distinctio magnam reiciendis sunt veniam.
+380,10,12.0,,A Receber,2633.83,0.0,2026-05-31,,Vencido,Earum optio eum distinctio vero.
+381,10,44.0,,A Receber,43299.64,43299.64,2026-01-21,2026-02-02,Pago,Officia a labore.
+382,10,28.0,,A Receber,25025.92,0.0,2026-09-22,,Pendente,Impedit tempora provident quis.
+383,10,17.0,,A Receber,8342.92,0.0,2026-04-20,,Vencido,Molestiae tempora repellendus.
+384,10,21.0,,A Receber,21352.46,21352.46,2026-03-12,2026-03-17,Pago,Explicabo repellat repudiandae.
+385,10,,37.0,A Pagar,22695.88,0.0,2026-02-03,,Cancelado,Saepe repellat voluptates commodi.
+386,10,15.0,,A Receber,9856.69,9856.69,2026-02-08,2026-02-16,Pago,Ipsam dolore accusantium eligendi.
+387,10,,16.0,A Pagar,42894.76,42894.76,2026-09-30,2026-10-07,Pago,Deleniti repellendus numquam repellat dolore.
+388,10,,12.0,A Pagar,38590.11,38590.11,2026-10-25,2026-10-23,Pago,Alias laudantium provident non ab.
+389,10,41.0,,A Receber,16899.9,16899.9,2026-10-27,2026-10-23,Pago,Beatae eius magnam cupiditate deserunt.
+390,10,,28.0,A Pagar,8265.13,0.0,2026-07-14,,Pendente,Natus aperiam consectetur aperiam ea necessitatibus.
+391,10,,10.0,A Pagar,14917.38,0.0,2025-12-09,,Cancelado,Quas earum sed ad voluptas perspiciatis.
+392,10,28.0,,A Receber,48227.4,48227.4,2026-05-23,2026-05-27,Pago,Sunt a incidunt perferendis officiis sequi.
+393,10,9.0,,A Receber,38261.3,38261.3,2026-01-19,2026-01-17,Pago,Earum perspiciatis iure facere quis.
+394,10,,12.0,A Pagar,14262.25,0.0,2026-09-14,,Cancelado,Aliquid ullam minus et.
+395,10,,24.0,A Pagar,45562.73,0.0,2026-02-17,,Vencido,Aspernatur nemo ad qui voluptatem.
+396,10,35.0,,A Receber,39905.03,39905.03,2026-03-03,2026-02-26,Pago,Totam deserunt eveniet.
+397,10,,7.0,A Pagar,23886.89,23886.89,2025-09-30,2025-10-10,Pago,Atque laboriosam repellat nihil numquam ex dolorum.
+398,10,,13.0,A Pagar,43768.55,0.0,2025-10-19,,Pendente,Vero rerum reprehenderit maxime.
+399,10,29.0,,A Receber,46557.04,0.0,2025-12-13,,Vencido,Quod nulla quisquam.
+400,10,29.0,,A Receber,7005.03,7005.03,2026-05-27,2026-05-27,Pago,Commodi voluptate totam fugiat suscipit possimus.
