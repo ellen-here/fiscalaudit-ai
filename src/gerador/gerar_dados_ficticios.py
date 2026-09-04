@@ -1,9 +1,6 @@
 """
-FiscalAudit AI - Gerador de Dados Fictícios
-Fase 3: Criação de dados realistas para teste do sistema
-
-Este script gera dados fictícios para as 7 tabelas do banco de dados,
-incluindo inconsistências propositais para testar as regras de auditoria.
+Gerador de dados fictícios para o FiscalAudit AI
+Cria dados de teste para as 7 tabelas do banco, incluindo inconsistências propositais
 """
 
 import pandas as pd
@@ -12,13 +9,10 @@ from datetime import datetime, timedelta
 import random
 import os
 
-# Configuração
 fake = Faker('pt_BR')
 random.seed(42)
 Faker.seed(42)
 
-# Diretório de saída
-# Obtém o diretório raiz do projeto (2 níveis acima)
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'data', 'raw')
@@ -26,14 +20,12 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 def gerar_cnpj():
-    """Gera um CNPJ válido formatado"""
-    # Simplificado para fins de teste - não valida dígitos verificadores
+    """Gera um CNPJ fictício formatado"""
     return f"{random.randint(10, 99)}.{random.randint(100, 999)}.{random.randint(100, 999)}/0001-{random.randint(10, 99)}"
 
 
 def gerar_cpf():
-    """Gera um CPF válido formatado"""
-    # Simplificado para fins de teste - não valida dígitos verificadores
+    """Gera um CPF fictício formatado"""
     return f"{random.randint(100, 999)}.{random.randint(100, 999)}.{random.randint(100, 999)}-{random.randint(10, 99)}"
 
 
@@ -47,11 +39,8 @@ def gerar_chave_nfe():
     return ''.join([str(random.randint(0, 9)) for _ in range(44)])
 
 
-# ========================================
-# 1. CLIENTES
-# ========================================
+# Clientes
 def gerar_clientes(n=50):
-    """Gera dados de clientes"""
     print(f"Gerando {n} clientes...")
     
     clientes = []
@@ -69,11 +58,8 @@ def gerar_clientes(n=50):
     return pd.DataFrame(clientes)
 
 
-# ========================================
-# 2. FORNECEDORES
-# ========================================
+# Fornecedores
 def gerar_fornecedores(n=40):
-    """Gera dados de fornecedores"""
     print(f"Gerando {n} fornecedores...")
     
     categorias = [
@@ -95,11 +81,8 @@ def gerar_fornecedores(n=40):
     return pd.DataFrame(fornecedores)
 
 
-# ========================================
-# 3. EMPRESAS
-# ========================================
+# Empresas
 def gerar_empresas(n=10):
-    """Gera dados de empresas (clientes do escritório contábil)"""
     print(f"Gerando {n} empresas...")
     
     ramos = [
@@ -126,11 +109,8 @@ def gerar_empresas(n=10):
     return pd.DataFrame(empresas)
 
 
-# ========================================
-# 4. MOVIMENTAÇÕES BANCÁRIAS
-# ========================================
+# Movimentações bancárias
 def gerar_movimentacoes_bancarias(empresas_df, n_por_empresa=50):
-    """Gera movimentações bancárias para cada empresa"""
     print(f"Gerando ~{n_por_empresa} movimentações por empresa...")
     
     categorias_entrada = [
@@ -147,7 +127,6 @@ def gerar_movimentacoes_bancarias(empresas_df, n_por_empresa=50):
     id_mov = 1
     
     for _, empresa in empresas_df.iterrows():
-        # Define período de movimentações (últimos 12 meses)
         data_inicio = datetime.now() - timedelta(days=365)
         data_fim = datetime.now()
         
@@ -177,11 +156,8 @@ def gerar_movimentacoes_bancarias(empresas_df, n_por_empresa=50):
     return pd.DataFrame(movimentacoes)
 
 
-# ========================================
-# 5. DOCUMENTOS FISCAIS
-# ========================================
+# Documentos fiscais
 def gerar_documentos_fiscais(empresas_df, clientes_df, fornecedores_df, n_por_empresa=30):
-    """Gera documentos fiscais (NF-e, NFS-e, etc.)"""
     print(f"Gerando ~{n_por_empresa} documentos fiscais por empresa...")
     
     tipos_doc = ['NF-e', 'NFS-e', 'CT-e', 'NFC-e']
@@ -197,7 +173,6 @@ def gerar_documentos_fiscais(empresas_df, clientes_df, fornecedores_df, n_por_em
         for _ in range(n_por_empresa):
             tipo_operacao = random.choice(['Entrada', 'Saída'])
             
-            # Se Saída → cliente, se Entrada → fornecedor
             if tipo_operacao == 'Saída':
                 id_cliente = random.choice(clientes_df['id_cliente'].tolist())
                 id_fornecedor = None
@@ -230,11 +205,8 @@ def gerar_documentos_fiscais(empresas_df, clientes_df, fornecedores_df, n_por_em
     return pd.DataFrame(documentos)
 
 
-# ========================================
-# 6. CONTAS FINANCEIRAS
-# ========================================
+# Contas financeiras
 def gerar_contas_financeiras(empresas_df, clientes_df, fornecedores_df, n_por_empresa=40):
-    """Gera títulos a pagar e a receber"""
     print(f"Gerando ~{n_por_empresa} contas financeiras por empresa...")
     
     status_pagamento = ['Pendente', 'Pago', 'Vencido', 'Cancelado']
@@ -259,7 +231,6 @@ def gerar_contas_financeiras(empresas_df, clientes_df, fornecedores_df, n_por_em
             valor_original = round(random.uniform(300, 50000), 2)
             status = random.choices(status_pagamento, weights=[0.3, 0.5, 0.15, 0.05])[0]
             
-            # Se pago, define valor_pago e data_pagamento
             if status == 'Pago':
                 # Ocasionalmente cria divergência (inconsistência proposital)
                 if random.random() < 0.1:  # 10% de divergência
@@ -293,20 +264,11 @@ def gerar_contas_financeiras(empresas_df, clientes_df, fornecedores_df, n_por_em
     return pd.DataFrame(contas)
 
 
-# ========================================
-# 7. CONCILIAÇÕES
-# ========================================
+# Conciliações
 def gerar_conciliacoes(contas_df, movimentacoes_df, taxa_conciliacao=0.6):
-    """
-    Gera conciliações entre contas financeiras e movimentações bancárias
-    taxa_conciliacao: percentual de contas que terão conciliação
-    """
     print(f"Gerando conciliações (~{taxa_conciliacao*100}% das contas pagas)...")
     
-    # Filtra apenas contas pagas
     contas_pagas = contas_df[contas_df['status_pagamento'] == 'Pago'].copy()
-    
-    # Seleciona amostra para conciliar
     n_conciliacoes = int(len(contas_pagas) * taxa_conciliacao)
     contas_para_conciliar = contas_pagas.sample(n=n_conciliacoes, random_state=42)
     
@@ -315,7 +277,7 @@ def gerar_conciliacoes(contas_df, movimentacoes_df, taxa_conciliacao=0.6):
     movimentacoes_disponiveis = movimentacoes_df.copy()
     
     for _, conta in contas_para_conciliar.iterrows():
-        # Busca movimentação compatível (mesma empresa, data próxima)
+        # Busca movimentação da mesma empresa que ainda não foi conciliada
         candidatas = movimentacoes_disponiveis[
             (movimentacoes_disponiveis['id_empresa'] == conta['id_empresa']) &
             (movimentacoes_disponiveis['conciliada'] == 0)
@@ -324,7 +286,6 @@ def gerar_conciliacoes(contas_df, movimentacoes_df, taxa_conciliacao=0.6):
         if len(candidatas) == 0:
             continue
         
-        # Escolhe movimentação aleatória
         movimentacao = candidatas.sample(n=1).iloc[0]
         
         # Ocasionalmente cria inconsistência (valores diferentes)
@@ -357,58 +318,44 @@ def gerar_conciliacoes(contas_df, movimentacoes_df, taxa_conciliacao=0.6):
     return pd.DataFrame(conciliacoes), movimentacoes_disponiveis
 
 
-# ========================================
-# FUNÇÃO PRINCIPAL
-# ========================================
 def main():
-    """Gera todos os dados e salva em CSVs"""
     print("\n" + "="*60)
     print("FiscalAudit AI - Gerador de Dados Fictícios")
     print("="*60 + "\n")
     
-    # 1. Clientes
     clientes_df = gerar_clientes(n=50)
     clientes_df.to_csv(f'{OUTPUT_DIR}/clientes.csv', index=False, encoding='utf-8-sig')
     print(f"✓ Clientes salvos: {len(clientes_df)} registros\n")
     
-    # 2. Fornecedores
     fornecedores_df = gerar_fornecedores(n=40)
     fornecedores_df.to_csv(f'{OUTPUT_DIR}/fornecedores.csv', index=False, encoding='utf-8-sig')
     print(f"✓ Fornecedores salvos: {len(fornecedores_df)} registros\n")
     
-    # 3. Empresas
     empresas_df = gerar_empresas(n=10)
     empresas_df.to_csv(f'{OUTPUT_DIR}/empresas.csv', index=False, encoding='utf-8-sig')
     print(f"✓ Empresas salvas: {len(empresas_df)} registros\n")
     
-    # 4. Movimentações Bancárias
     movimentacoes_df = gerar_movimentacoes_bancarias(empresas_df, n_por_empresa=50)
     movimentacoes_df.to_csv(f'{OUTPUT_DIR}/movimentacoes_bancarias.csv', index=False, encoding='utf-8-sig')
     print(f"✓ Movimentações bancárias salvas: {len(movimentacoes_df)} registros\n")
     
-    # 5. Documentos Fiscais
     documentos_df = gerar_documentos_fiscais(empresas_df, clientes_df, fornecedores_df, n_por_empresa=30)
     documentos_df.to_csv(f'{OUTPUT_DIR}/documentos_fiscais.csv', index=False, encoding='utf-8-sig')
     print(f"✓ Documentos fiscais salvos: {len(documentos_df)} registros\n")
     
-    # 6. Contas Financeiras
     contas_df = gerar_contas_financeiras(empresas_df, clientes_df, fornecedores_df, n_por_empresa=40)
     contas_df.to_csv(f'{OUTPUT_DIR}/contas_financeiras.csv', index=False, encoding='utf-8-sig')
     print(f"✓ Contas financeiras salvas: {len(contas_df)} registros\n")
     
-    # 7. Conciliações
     conciliacoes_df, movimentacoes_atualizadas_df = gerar_conciliacoes(
         contas_df, movimentacoes_df, taxa_conciliacao=0.6
     )
     conciliacoes_df.to_csv(f'{OUTPUT_DIR}/conciliacoes.csv', index=False, encoding='utf-8-sig')
-    
-    # Atualiza movimentações com flag de conciliada
     movimentacoes_atualizadas_df.to_csv(
         f'{OUTPUT_DIR}/movimentacoes_bancarias.csv', index=False, encoding='utf-8-sig'
     )
     print(f"✓ Conciliações salvas: {len(conciliacoes_df)} registros\n")
     
-    # Resumo
     print("="*60)
     print("RESUMO DA GERAÇÃO")
     print("="*60)
