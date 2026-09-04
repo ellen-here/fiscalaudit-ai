@@ -18,6 +18,7 @@ build/
 # Dados sensíveis (nunca commitar dados reais de clientes)
 data/raw/*.csv
 data/processed/*.csv
+data/processed/*.md
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 

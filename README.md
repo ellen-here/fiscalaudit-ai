@@ -121,7 +121,7 @@ fiscalaudit-ai/
 | 5    | Regras de auditoria e conciliação             | ✅ Concluído     |
 | 6    | Análise exploratória dos dados                | ✅ Concluído     |
 | 7    | Machine Learning para detecção de anomalias   | ✅ Concluído     |
-| 8    | IA Generativa para apoio na análise           | ⏳ Pendente      |
+| 8    | IA Generativa para apoio na análise           | ✅ Concluído     |
 | 9    | Dashboard com Streamlit                       | ⏳ Pendente      |
 | 10   | Docker e documentação final                   | ⏳ Pendente      |
 
