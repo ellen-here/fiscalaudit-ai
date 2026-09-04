@@ -116,8 +116,8 @@ fiscalaudit-ai/
 | ---- | --------------------------------------------- | --------------- |
 | 1    | Planejamento e modelagem do banco             | ✅ Concluído     |
 | 2    | Criação das tabelas no MySQL                  | ✅ Concluído     |
-| 3    | Geração de dados fictícios com Python + Faker | 🔄 Em andamento |
-| 4    | Pipeline ETL (CSV → MySQL)                    | ⏳ Pendente      |
+| 3    | Geração de dados fictícios com Python + Faker | ✅ Concluído     |
+| 4    | Pipeline ETL (CSV → MySQL)                    | ✅ Concluído     |
 | 5    | Regras de auditoria e conciliação             | ⏳ Pendente      |
 | 6    | Análise exploratória dos dados                | ⏳ Pendente      |
 | 7    | Machine Learning para detecção de anomalias   | ⏳ Pendente      |
