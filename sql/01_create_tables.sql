@@ -1,8 +1,5 @@
--- =============================================================
---  FiscalAudit AI — DDL MySQL
---  Fase 2: Criação das Tabelas
---  Ordem respeitando dependências de chaves estrangeiras (FK)
--- =============================================================
+-- FiscalAudit AI — DDL MySQL
+-- Ordem de criação respeita as dependências de chaves estrangeiras
 
 CREATE DATABASE IF NOT EXISTS fiscalaudit
   CHARACTER SET utf8mb4
@@ -10,11 +7,8 @@ CREATE DATABASE IF NOT EXISTS fiscalaudit
 
 USE fiscalaudit;
 
--- =============================================================
--- 1. CLIENTES
---    Pessoas físicas ou jurídicas que compram das empresas.
---    Criada primeiro pois não possui FK.
--- =============================================================
+-- Tabelas sem dependências (criadas primeiro)
+
 CREATE TABLE clientes (
     id_cliente          INT             NOT NULL AUTO_INCREMENT,
     cnpj_cpf            VARCHAR(18)     NOT NULL,
@@ -27,36 +21,25 @@ CREATE TABLE clientes (
     CONSTRAINT uq_clientes_cnpj_cpf UNIQUE      (cnpj_cpf),
 
     INDEX idx_clientes_nome (nome_cliente)
-) ENGINE=InnoDB
-  COMMENT='Clientes das empresas auditadas.';
+) ENGINE=InnoDB;
 
 
--- =============================================================
--- 2. FORNECEDORES
---    Empresas que fornecem bens/serviços às empresas auditadas.
---    Criada antes de documentos_fiscais e contas_financeiras.
--- =============================================================
 CREATE TABLE fornecedores (
     id_fornecedor           INT             NOT NULL AUTO_INCREMENT,
     cnpj                    VARCHAR(18)     NOT NULL,
     razao_social            VARCHAR(150)    NOT NULL,
-    categoria_fornecimento  VARCHAR(100)    NULL COMMENT 'Ex: Tecnologia, Transporte, Insumos',
+    categoria_fornecimento  VARCHAR(100)    NULL,
     criado_em               DATETIME        NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT pk_fornecedores      PRIMARY KEY (id_fornecedor),
     CONSTRAINT uq_fornecedores_cnpj UNIQUE      (cnpj),
 
     INDEX idx_fornecedores_razao_social (razao_social)
-) ENGINE=InnoDB
-  COMMENT='Fornecedores das empresas auditadas.';
+) ENGINE=InnoDB;
 
 
--- =============================================================
--- 3. EMPRESAS
---    Tabela central. Representa os clientes do escritório
---    (as empresas cujos dados financeiros serão auditados).
---    Criada antes das tabelas que a referenciam via FK.
--- =============================================================
+-- Tabela central do modelo
+
 CREATE TABLE empresas (
     id_empresa          INT             NOT NULL AUTO_INCREMENT,
     razao_social        VARCHAR(150)    NOT NULL,
@@ -67,7 +50,7 @@ CREATE TABLE empresas (
                             'Lucro Presumido',
                             'Lucro Real',
                             'MEI'
-                        )               NULL COMMENT 'Regime de tributação da empresa',
+                        )               NULL,
     criado_em           DATETIME        NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT pk_empresas      PRIMARY KEY (id_empresa),
@@ -75,15 +58,11 @@ CREATE TABLE empresas (
 
     INDEX idx_empresas_razao_social   (razao_social),
     INDEX idx_empresas_regime         (regime_tributario)
-) ENGINE=InnoDB
-  COMMENT='Empresas clientes do escritório contábil (objeto da auditoria).';
+) ENGINE=InnoDB;
 
 
--- =============================================================
--- 4. MOVIMENTACOES_BANCARIAS
---    Registra entradas e saídas do extrato bancário.
---    FK → empresas
--- =============================================================
+-- Tabelas dependentes
+
 CREATE TABLE movimentacoes_bancarias (
     id_movimentacao         INT             NOT NULL AUTO_INCREMENT,
     id_empresa              INT             NOT NULL,
@@ -92,10 +71,10 @@ CREATE TABLE movimentacoes_bancarias (
                                 'Entrada',
                                 'Saída'
                             )               NOT NULL,
-    categoria               VARCHAR(100)    NULL COMMENT 'Ex: Salário, Fornecedor, Receita de Venda',
+    categoria               VARCHAR(100)    NULL,
     descricao_movimentacao  VARCHAR(255)    NULL,
     valor_movimentacao      DECIMAL(15, 2)  NOT NULL,
-    conciliada              TINYINT(1)      NOT NULL DEFAULT 0 COMMENT '0 = Não conciliada, 1 = Conciliada',
+    conciliada              TINYINT(1)      NOT NULL DEFAULT 0,
 
     CONSTRAINT pk_movimentacoes         PRIMARY KEY (id_movimentacao),
     CONSTRAINT fk_movimentacoes_empresa FOREIGN KEY (id_empresa)
@@ -108,17 +87,9 @@ CREATE TABLE movimentacoes_bancarias (
     INDEX idx_mov_tipo             (tipo_operacao),
     INDEX idx_mov_conciliada       (conciliada),
     INDEX idx_mov_empresa_data     (id_empresa, data_movimentacao)
-) ENGINE=InnoDB
-  COMMENT='Extrato bancário das empresas auditadas.';
+) ENGINE=InnoDB;
 
 
--- =============================================================
--- 5. DOCUMENTOS_FISCAIS
---    Notas fiscais (NF-e, NFS-e, CT-e etc.).
---    FK → empresas, clientes (NULL), fornecedores (NULL)
---    Um documento pertence a cliente (saída) OU fornecedor
---    (entrada), dependendo do tipo de operação.
--- =============================================================
 CREATE TABLE documentos_fiscais (
     id_documento        INT             NOT NULL AUTO_INCREMENT,
     id_empresa          INT             NOT NULL,
@@ -133,7 +104,7 @@ CREATE TABLE documentos_fiscais (
                         )               NOT NULL,
     numero_documento    VARCHAR(50)     NOT NULL,
     serie_documento     VARCHAR(10)     NULL,
-    chave_acesso        VARCHAR(44)     NULL COMMENT 'Chave de acesso de 44 dígitos da NF-e',
+    chave_acesso        VARCHAR(44)     NULL,
     data_emissao        DATE            NOT NULL,
     tipo_operacao       ENUM(
                             'Entrada',
@@ -169,15 +140,9 @@ CREATE TABLE documentos_fiscais (
     INDEX idx_doc_status            (status_documento),
     INDEX idx_doc_numero_serie      (numero_documento, serie_documento),
     INDEX idx_doc_empresa_data      (id_empresa, data_emissao)
-) ENGINE=InnoDB
-  COMMENT='Documentos fiscais (NF-e, NFS-e, CT-e) das empresas auditadas.';
+) ENGINE=InnoDB;
 
 
--- =============================================================
--- 6. CONTAS_FINANCEIRAS
---    Títulos a pagar e a receber.
---    FK → empresas, clientes (NULL), fornecedores (NULL)
--- =============================================================
 CREATE TABLE contas_financeiras (
     id_conta            INT             NOT NULL AUTO_INCREMENT,
     id_empresa          INT             NOT NULL,
@@ -221,16 +186,11 @@ CREATE TABLE contas_financeiras (
     INDEX idx_contas_vencimento         (data_vencimento),
     INDEX idx_contas_empresa_status     (id_empresa, status_pagamento),
     INDEX idx_contas_empresa_vencimento (id_empresa, data_vencimento)
-) ENGINE=InnoDB
-  COMMENT='Títulos a pagar e a receber das empresas auditadas.';
+) ENGINE=InnoDB;
 
 
--- =============================================================
--- 7. CONCILIACOES
---    Relaciona uma conta financeira a uma movimentação bancária.
---    Relação 1:1 para o MVP (UNIQUE em ambas as FKs).
---    Criada por último pois depende das duas tabelas acima.
--- =============================================================
+-- Relação 1:1 no MVP (UNIQUE em ambas as FKs)
+
 CREATE TABLE conciliacoes (
     id_conciliacao      INT             NOT NULL AUTO_INCREMENT,
     id_conta            INT             NOT NULL,
@@ -243,7 +203,7 @@ CREATE TABLE conciliacoes (
                         )               NOT NULL DEFAULT 'Pendente',
     diferenca_valor     DECIMAL(15, 2)  NOT NULL DEFAULT 0.00
                         COMMENT 'Diferença entre valor da conta e valor da movimentação',
-    observacao          VARCHAR(500)    NULL COMMENT 'Notas do auditor ou do sistema',
+    observacao          VARCHAR(500)    NULL,
 
     CONSTRAINT pk_conciliacoes              PRIMARY KEY (id_conciliacao),
     CONSTRAINT uq_conciliacoes_conta        UNIQUE      (id_conta),
@@ -260,11 +220,4 @@ CREATE TABLE conciliacoes (
     INDEX idx_conc_status           (status_conciliacao),
     INDEX idx_conc_data             (data_conciliacao),
     INDEX idx_conc_diferenca        (diferenca_valor)
-) ENGINE=InnoDB
-  COMMENT='Conciliação entre títulos financeiros e movimentações bancárias (relação 1:1 no MVP).';
-
-
--- =============================================================
---  FIM DO DDL
---  Próximo passo: 02_seed_data.sql (dados fictícios para teste)
--- =============================================================
+) ENGINE=InnoDB;
