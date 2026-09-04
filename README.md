@@ -123,7 +123,7 @@ fiscalaudit-ai/
 | 7    | Machine Learning para detecção de anomalias   | ✅ Concluído     |
 | 8    | IA Generativa para apoio na análise           | ✅ Concluído     |
 | 9    | Dashboard com Streamlit                       | ✅ Concluído     |
-| 10   | Docker e documentação final                   | ⏳ Pendente      |
+| 10   | Docker e documentação final                   | ✅ Concluído     |
 
 ---
 
@@ -166,32 +166,55 @@ em relação à média dos últimos 6 meses.
 
 ## 🚀 Como executar
 
-### 1. Clone o repositório
+### Com Docker (recomendado)
 
 ```bash
+# 1. Clone o repositório
 git clone https://github.com/ellen-xploit/fiscalaudit-ai.git
 cd fiscalaudit-ai
+
+# 2. Configure as variáveis de ambiente
+cp .env.example .env
+
+# 3. Suba os containers (MySQL + Dashboard)
+docker compose up -d
+
+# 4. Acesse o dashboard em http://localhost:8501
 ```
 
-### 2. Instale as dependências
+Na primeira vez, o Docker cria as tabelas automaticamente e sobe o dashboard. Para parar:
 
 ```bash
+docker compose down
+```
+
+### Sem Docker (desenvolvimento local)
+
+```bash
+# 1. Instale as dependências
 pip install -r requirements.txt
+
+# 2. Configure as variáveis de ambiente
+cp .env.example .env
+
+# 3. Gere os dados fictícios
+python src/gerador/gerar_dados_ficticios.py
+
+# 4. Rode o ETL
+python src/etl/carregar_dados.py
+
+# 5. Execute as regras de auditoria
+python src/auditoria/regras.py
+
+# 6. Rode o modelo de ML
+python src/ml/detector_anomalias.py
+
+# 7. Gere o relatório com IA
+python src/ia/gerar_relatorio.py
+
+# 8. Suba o dashboard
+streamlit run src/dashboard/app.py
 ```
-
-### 3. Suba o banco de dados
-
-```bash
-docker-compose up -d
-```
-
-### 4. Crie as tabelas
-
-```bash
-mysql -u root -p fiscalaudit < sql/01_create_tables.sql
-```
-
-> A forma de execução pode mudar conforme o ambiente e as próximas etapas do projeto.
 
 ---
 
@@ -211,6 +234,6 @@ Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais in
 
 ## 📌 Status
 
-🚧 **Em desenvolvimento**
+✅ **Concluído**
 
-Este é um projeto de portfólio e estudo, desenvolvido por etapas. Novas funcionalidades serão adicionadas conforme o projeto evoluir.
+Todas as 10 fases do projeto foram implementadas. O pipeline completo vai da geração de dados fictícios até o dashboard interativo com detecção de anomalias por ML e geração de relatórios com IA.
